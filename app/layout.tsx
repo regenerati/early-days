@@ -1,5 +1,6 @@
 import type React from "react"
 import "@/app/globals.css"
+import "@/styles/header-bg.css"
 import { Inter } from "next/font/google"
 import { ThemeProvider } from "@/components/theme-provider"
 
@@ -17,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="light" style={{ colorScheme: "light" }}>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
           {children}

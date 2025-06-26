@@ -1,0 +1,21 @@
+.header-bg-sunrise {
+  position: relative;
+  background-image: url('/images/sunrise.png');
+  background-size: 30% auto;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+.header-bg-sunrise::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: inherit;
+  opacity: 0.5;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.header-bg-sunrise > * {
+  position: relative;
+  z-index: 1;
+}

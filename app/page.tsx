@@ -5,13 +5,18 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import { Heart, Mail, MapPin, Calendar, Home } from "lucide-react"
 import Image from "next/image"
-import { useEffect } from "react"
+import React, { useEffect, useState } from "react"
 
 import { Yeseva_One } from "next/font/google"
 
 const yeseva = Yeseva_One({  weight: '400', subsets: ["latin"] })
 
 export default function HomePage() {
+  const [year, setYear] = useState(2025);
+  useEffect(() => {
+    setYear(new Date().getFullYear());
+  }, []);
+
   useEffect(() => {
     // Disable right-click context menu
     const handleContextMenu = (e: MouseEvent) => {
@@ -54,7 +59,7 @@ export default function HomePage() {
   return (
     <div className="flex min-h-screen flex-col no-context-menu">
       {/* Hero Section - Teal */}
-      <header className="bg-teal-50 py-20 text-center">
+      <header className="header-bg-sunrise bg-teal-50 py-20 text-center">
         <div className="container px-4 md:px-6">
           <h1 className={`${yeseva.className} text-4xl font-bold tracking-tight text-teal-800 sm:text-5xl md:text-6xl`}>
             Early Days with Chelsea
@@ -173,7 +178,7 @@ export default function HomePage() {
             {/* Service Card 2 */}
             <Card className="border-blue-200 bg-white h-[400px] w-[300px] mx-auto">
               <CardContent className="p-6 h-full flex flex-col">
-                <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-full bg-blue-100 mx-auto">
+                <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-full bg-blue-100 mx-auto flex-shrink-0">
                   <Home className="h-6 w-6 text-blue-700" />
                 </div>
                 <h3 className="mb-4 text-xl font-semibold text-blue-800 text-center">Postpartum Doula</h3>
@@ -345,7 +350,7 @@ export default function HomePage() {
       {/* Footer - Teal (matching header) */}
       <footer className="bg-teal-800 py-8 text-center text-white">
         <div className="container px-4 md:px-6">
-          <p>© {new Date().getFullYear()} Early Days with Chelsea. All rights reserved.</p>
+          <p>© {year} Early Days with Chelsea. All rights reserved.</p>
           <p className="mt-2 text-sm text-teal-200">Support for the early days of parenthood.</p>
         </div>
       </footer>
