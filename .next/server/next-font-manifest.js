@@ -1,1 +1,0 @@
-self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/cmatt/early-days/app/layout\":[\"static/media/e4af272ccee01ff0-s.p.woff2\"],\"/Users/cmatt/early-days/app/page\":[\"static/media/62a5fc10954234a2-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
