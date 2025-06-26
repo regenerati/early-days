@@ -59,15 +59,15 @@ export default function HomePage() {
   return (
     <div className="flex min-h-screen flex-col no-context-menu">
       {/* Hero Section - Teal */}
-      <header className="header-bg-sunrise bg-teal-50 py-20 text-center">
+      <header className="header-bg-sunrise bg-teal-50 py-20 text-left">
         <div className="container px-4 md:px-6">
-          <h1 className={`${yeseva.className} text-4xl font-bold tracking-tight text-teal-800 sm:text-5xl md:text-6xl`}>
+          <h1 className={`${yeseva.className} text-4xl font-bold tracking-tight text-teal-800 sm:text-5xl md:text-6xl text-left`}>
             Early Days with Chelsea
           </h1>
-          <p className="mx-auto mt-4 max-w-md text-lg text-teal-700">
+          <p className="mt-4 max-w-md text-lg text-teal-700 text-left">
             Compassionate doula support for birth and postpartum.
           </p>
-          <Button asChild className="mt-8 bg-teal-700 hover:bg-teal-800" size="lg">
+          <Button asChild className="mt-8 bg-teal-700 hover:bg-teal-800 text-left" size="lg">
             <a href="#contact">Book a Free Consultation</a>
           </Button>
         </div>
