@@ -77,14 +77,14 @@ export default function HomePage() {
       <section id="about" className="py-16 bg-white">
         <div className="container px-4 md:px-6">
           <h2 className="mb-6 text-center text-3xl font-bold text-teal-800">About Me</h2>
-          <div className="flex flex-col md:flex-row md:items-start gap-4 md:gap-8">
+          <div className="flex flex-col md:flex-row md:items-start gap-4 md:gap-4 justify-center">
             <div className="md:w-1/3 flex items-start justify-start">
-              <div className="w-full max-w-xs aspect-[3/4] overflow-hidden rounded-lg border-4 border-teal-200 protect-container">
+              <div className="w-full max-w-sm aspect-[3/4] overflow-hidden rounded-lg border-4 border-teal-200 protect-container">
                 <Image
                   src="/images/chelsea-headshot.jpg"
                   alt="Chelsea Matthews - Doula"
-                  width={300}
-                  height={400}
+                  width={375}
+                  height={500}
                   className="h-full w-full object-cover object-top protect-image"
                   priority
                   draggable={false}
