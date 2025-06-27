@@ -59,15 +59,11 @@ export default function HomePage() {
   return (
     <div className="flex min-h-screen flex-col no-context-menu overflow-x-hidden">
       {/* Hero Section - Teal */}
-      <header className="header-bg-sunrise bg-teal-50 py-20 text-left">
-        <div className="container px-4 md:px-6">
-          <h1 className={`${yeseva.className} text-4xl font-bold tracking-tight text-teal-800 sm:text-5xl md:text-6xl text-left`}>
-            Early Days with Chelsea
-          </h1>
-          <p className="mt-4 text-lg text-teal-700 text-left">
-            Compassionate doula support for birth and postpartum.
-          </p>
-          <Button asChild className="mt-8 bg-teal-700 hover:bg-teal-800 text-left" size="lg">
+      <header className="header-bg-sunrise bg-teal-50 py-24 text-left shadow-lg rounded-b-3xl">
+        <div className="container px-4 md:px-8 max-w-4xl mx-auto">
+          <h1 className={`${yeseva.className} text-5xl font-bold tracking-tight text-teal-800 sm:text-6xl md:text-7xl text-left drop-shadow-md`}>Early Days with Chelsea</h1>
+          <p className="mt-6 text-2xl text-teal-700 text-left font-light max-w-2xl">Compassionate doula support for birth and postpartum.</p>
+          <Button asChild className="mt-10 bg-gradient-to-r from-teal-600 to-teal-400 hover:from-teal-700 hover:to-teal-500 text-white px-8 py-4 rounded-full shadow-lg text-lg font-semibold transition-all duration-200" size="lg">
             <a href="#contact">Book a Free Consultation</a>
           </Button>
         </div>
@@ -117,11 +113,11 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Education / Training Section - Coral */}
-      <section id="education" className="bg-teal-800 py-16">
+      {/* Education / Training Section - Teal */}
+      <section id="education" className="bg-teal-50 py-16">
         <div className="container px-4 md:px-6">
-          <h2 className={`mb-12 text-center text-3xl font-bold text-teal-50 ${yeseva.className}`}>Education & Training</h2>
-          <div className="mx-auto max-w-3xl rounded-lg bg-white p-8 ">
+          <h2 className={`mb-12 text-center text-3xl font-bold text-teal-800 ${yeseva.className}`}>Education & Training</h2>
+          <div className="mx-auto max-w-3xl rounded-lg bg-white p-8 shadow-md">
             <div className="space-y-4">
               <div className="flex flex-col sm:flex-row sm:justify-between">
                 <span className="font-medium text-sm sm:text-base text-teal-800">Birth Doula Training</span>
@@ -153,13 +149,13 @@ export default function HomePage() {
       </section>
 
       {/* Services Section - Blue */}
-      <section id="services" className="py-16 bg-teal-800">
+      <section id="services" className="py-16 bg-teal-50">
         <div className="container px-4 md:px-6">
-          <h2 className={`mb-12 text-center text-3xl font-bold text-teal-50 ${yeseva.className}`}>Services Offered</h2>
+          <h2 className={`mb-12 text-center text-3xl font-bold text-teal-800 ${yeseva.className}`}>Services Offered</h2>
 
           <div className="grid gap-8 md:grid-cols-3 max-w-5xl mx-auto">
             {/* Service Card 1 */}
-            <Card className="bg-white min-h-[340px] w-full max-w-xs mx-auto flex-1">
+            <Card className="border-teal-200 bg-white min-h-[340px] w-full max-w-xs mx-auto flex-1 shadow-md">
               <CardContent className="p-6 h-full flex flex-col">
                 <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-full bg-teal-100 mx-auto flex-shrink-0">
                   <Heart className="h-6 w-6 text-teal-700" />
@@ -169,13 +165,12 @@ export default function HomePage() {
                   Support from pregnancy through birth, including personalized prenatal visits, practice with comfort
                   techniques, 24/7 on-call availability after 37 weeks, and continuous labor support.
                   <br /> <br /> $1,500 total
-
                 </p>
               </CardContent>
             </Card>
 
             {/* Service Card 2 */}
-            <Card className="bg-white min-h-[340px] w-full max-w-xs mx-auto flex-1">
+            <Card className="border-teal-200 bg-white min-h-[340px] w-full max-w-xs mx-auto flex-1 shadow-md">
               <CardContent className="p-6 h-full flex flex-col">
                 <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-full bg-teal-100 mx-auto flex-shrink-0">
                   <Home className="h-6 w-6 text-teal-700" />
@@ -304,41 +299,41 @@ export default function HomePage() {
       </section>
 
       {/* Contact Section - Coral */}
-      <section id="contact" className="bg-teal-800 py-16">
+      <section id="contact" className="bg-gradient-to-br from-white via-teal-100 to-teal-800 py-16">
         <div className="container px-4 md:px-6">
-          <h2 className={`mb-12 text-center text-3xl font-bold text-teal-50 ${yeseva.className}`}>Contact Me</h2>
-          <div className="mx-auto max-w-3xl rounded-lg bg-white p-8">
+          <h2 className={`mb-12 text-center text-3xl font-bold text-teal-800 ${yeseva.className}`}>Contact Me</h2>
+          <div className="mx-auto max-w-3xl rounded-lg bg-white p-8 shadow-md">
             <p className="mb-6 text-center text-gray-700">
               I'd love to hear from you! Reach out to schedule a free consultation or ask any questions.
             </p>
             <div className="space-y-6">
-              <div className="flex items-start gap-4">
-                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-teal-100 flex-shrink-0">
-                  <Mail className="h-6 w-6 text-teal-700" />
+              <div className="flex items-start gap-6">
+                <div className="flex h-14 w-14 items-center justify-center rounded-full bg-gradient-to-br from-teal-100 to-teal-200 flex-shrink-0 shadow">
+                  <Mail className="h-7 w-7 text-teal-700" />
                 </div>
                 <div className="min-w-0 flex-1">
-                  <h3 className="font-medium text-teal-800">Email</h3>
-                  <p className="text-gray-700 break-all text-sm sm:text-base">earlydayswithchelsea@gmail.com</p>
+                  <h3 className="font-medium text-teal-800 text-lg">Email</h3>
+                  <p className="text-gray-700 break-all text-base">earlydayswithchelsea@gmail.com</p>
                 </div>
               </div>
-              <div className="flex items-start gap-4">
-                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-teal-100 flex-shrink-0">
-                  <MapPin className="h-6 w-6 text-teal-700" />
+              <div className="flex items-start gap-6">
+                <div className="flex h-14 w-14 items-center justify-center rounded-full bg-gradient-to-br from-teal-100 to-teal-200 flex-shrink-0 shadow">
+                  <MapPin className="h-7 w-7 text-teal-700" />
                 </div>
                 <div className="min-w-0 flex-1">
-                  <h3 className="font-medium text-teal-800">Service Area</h3>
-                  <p className="text-gray-700 text-sm sm:text-base">
+                  <h3 className="font-medium text-teal-800 text-lg">Service Area</h3>
+                  <p className="text-gray-700 text-base">
                     San Francisco, and parts of the East Bay, Marin, and the Peninsula.
                   </p>
                 </div>
               </div>
-              <div className="flex items-start gap-4">
-                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-teal-100 flex-shrink-0">
-                  <Calendar className="h-6 w-6 text-teal-700" />
+              <div className="flex items-start gap-6">
+                <div className="flex h-14 w-14 items-center justify-center rounded-full bg-gradient-to-br from-teal-100 to-teal-200 flex-shrink-0 shadow">
+                  <Calendar className="h-7 w-7 text-teal-700" />
                 </div>
                 <div className="min-w-0 flex-1">
-                  <h3 className="font-medium text-teal-800">Availability</h3>
-                  <p className="text-gray-700 text-sm sm:text-base">Currently accepting clients</p>
+                  <h3 className="font-medium text-teal-800 text-lg">Availability</h3>
+                  <p className="text-gray-700 text-base">Currently accepting clients</p>
                 </div>
               </div>
             </div>
