@@ -76,7 +76,7 @@ export default function HomePage() {
       {/* About Me Section - White */}
       <section id="about" className="py-16 bg-white">
         <div className="container px-4 md:px-6">
-          <h2 className="mb-6 text-center text-3xl font-bold text-teal-800">About Me</h2>
+          <h2 className={`mb-6 text-center text-3xl font-bold text-teal-800 ${yeseva.className}`}>About Me</h2>
           <div className="flex flex-col md:flex-row md:items-start gap-4 md:gap-4 justify-center">
             <div className="md:w-1/3 flex items-start justify-start">
               <div className="w-full max-w-sm aspect-[3/4] overflow-hidden rounded-lg protect-container">
@@ -118,10 +118,10 @@ export default function HomePage() {
       </section>
 
       {/* Education / Training Section - Coral */}
-      <section id="education" className="bg-teal-50 py-16">
+      <section id="education" className="bg-teal-800 py-16">
         <div className="container px-4 md:px-6">
-          <h2 className="mb-12 text-center text-3xl font-bold text-teal-800">Education & Training</h2>
-          <div className="mx-auto max-w-3xl rounded-lg bg-white p-8 shadow-md border border-teal-200">
+          <h2 className={`mb-12 text-center text-3xl font-bold text-teal-50 ${yeseva.className}`}>Education & Training</h2>
+          <div className="mx-auto max-w-3xl rounded-lg bg-white p-8 ">
             <div className="space-y-4">
               <div className="flex flex-col sm:flex-row sm:justify-between">
                 <span className="font-medium text-sm sm:text-base text-teal-800">Birth Doula Training</span>
@@ -153,13 +153,13 @@ export default function HomePage() {
       </section>
 
       {/* Services Section - Blue */}
-      <section id="services" className="py-16 bg-teal-50">
+      <section id="services" className="py-16 bg-teal-800">
         <div className="container px-4 md:px-6">
-          <h2 className="mb-12 text-center text-3xl font-bold text-teal-800">Services Offered</h2>
+          <h2 className={`mb-12 text-center text-3xl font-bold text-teal-50 ${yeseva.className}`}>Services Offered</h2>
 
           <div className="grid gap-8 md:grid-cols-3 max-w-5xl mx-auto">
             {/* Service Card 1 */}
-            <Card className="border-teal-200 bg-white min-h-[340px] w-full max-w-xs mx-auto flex-1 shadow-md">
+            <Card className="bg-white min-h-[340px] w-full max-w-xs mx-auto flex-1">
               <CardContent className="p-6 h-full flex flex-col">
                 <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-full bg-teal-100 mx-auto flex-shrink-0">
                   <Heart className="h-6 w-6 text-teal-700" />
@@ -175,7 +175,7 @@ export default function HomePage() {
             </Card>
 
             {/* Service Card 2 */}
-            <Card className="border-teal-200 bg-white min-h-[340px] w-full max-w-xs mx-auto flex-1 shadow-md">
+            <Card className="bg-white min-h-[340px] w-full max-w-xs mx-auto flex-1">
               <CardContent className="p-6 h-full flex flex-col">
                 <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-full bg-teal-100 mx-auto flex-shrink-0">
                   <Home className="h-6 w-6 text-teal-700" />
@@ -211,7 +211,7 @@ export default function HomePage() {
       {/* FAQ Section - Teal */}
       <section id="faq" className="bg-white py-16">
         <div className="container px-4 md:px-6">
-          <h2 className="mb-12 text-center text-3xl font-bold text-teal-800">Frequently Asked Questions</h2>
+          <h2 className={`mb-12 text-center text-3xl font-bold text-teal-800 ${yeseva.className}`}>Frequently Asked Questions</h2>
           <Accordion type="single" collapsible className="mx-auto max-w-3xl">
             <AccordionItem value="item-1">
               <AccordionTrigger className="text-left text-lg font-medium text-teal-700">
@@ -304,10 +304,10 @@ export default function HomePage() {
       </section>
 
       {/* Contact Section - Coral */}
-      <section id="contact" className="bg-teal-50 py-16">
+      <section id="contact" className="bg-teal-800 py-16">
         <div className="container px-4 md:px-6">
-          <h2 className="mb-12 text-center text-3xl font-bold text-teal-800">Contact Me</h2>
-          <div className="mx-auto max-w-3xl rounded-lg bg-white p-8 shadow-md border border-teal-200">
+          <h2 className={`mb-12 text-center text-3xl font-bold text-teal-50 ${yeseva.className}`}>Contact Me</h2>
+          <div className="mx-auto max-w-3xl rounded-lg bg-white p-8">
             <p className="mb-6 text-center text-gray-700">
               I'd love to hear from you! Reach out to schedule a free consultation or ask any questions.
             </p>
@@ -350,7 +350,7 @@ export default function HomePage() {
       <footer className="bg-teal-800 py-8 text-center text-white">
         <div className="container px-4 md:px-6">
           <p>© {year} Early Days with Chelsea. All rights reserved.</p>
-          <p className="mt-2 text-sm text-teal-200">Support for the early days of parenthood.</p>
+          <p className="mt-2 text-sm text-teal-50">Support for the early days of parenthood.</p>
         </div>
       </footer>
     </div>
