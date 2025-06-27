@@ -299,9 +299,9 @@ export default function HomePage() {
       </section>
 
       {/* Contact Section - Coral */}
-      <section id="contact" className="bg-gradient-to-br from-white via-teal-100 to-teal-800 py-16">
+      <section id="contact" className="bg-teal-800 py-16">
         <div className="container px-4 md:px-6">
-          <h2 className={`mb-12 text-center text-3xl font-bold text-teal-800 ${yeseva.className}`}>Contact Me</h2>
+          <h2 className={`mb-12 text-center text-3xl font-bold text-white ${yeseva.className}`}>Contact Me</h2>
           <div className="mx-auto max-w-3xl rounded-lg bg-white p-8 shadow-md">
             <p className="mb-6 text-center text-gray-700">
               I'd love to hear from you! Reach out to schedule a free consultation or ask any questions.
