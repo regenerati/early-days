@@ -79,7 +79,7 @@ export default function HomePage() {
           <h2 className="mb-6 text-center text-3xl font-bold text-teal-800">About Me</h2>
           <div className="flex flex-col md:flex-row md:items-start gap-4 md:gap-4 justify-center">
             <div className="md:w-1/3 flex items-start justify-start">
-              <div className="w-full max-w-sm aspect-[3/4] overflow-hidden rounded-lg border-4 border-teal-200 protect-container">
+              <div className="w-full max-w-sm aspect-[3/4] overflow-hidden rounded-lg protect-container">
                 <Image
                   src="/images/chelsea-headshot.jpg"
                   alt="Chelsea Matthews - Doula"
@@ -192,7 +192,7 @@ export default function HomePage() {
 
             {/* Photo Card */}
             <div className="h-[400px] w-full max-w-xs mx-auto flex-1">
-              <div className="overflow-hidden rounded-lg border-4 border-teal-200 w-full h-full protect-container flex items-center justify-center">
+              <div className="overflow-hidden rounded-lg w-full h-full protect-container flex items-center justify-center">
                 <Image
                   src="/images/doula-with-baby.jpg"
                   alt="Chelsea providing gentle newborn care support"
