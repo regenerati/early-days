@@ -217,7 +217,7 @@ export default function HomePage() {
               <AccordionTrigger className="text-left text-lg font-medium text-teal-700">
                 What exactly does a doula do?
               </AccordionTrigger>
-              <AccordionContent className="text-gray-700">
+              <AccordionContent className="text-gray-700 text-base">
                 As your doula, I provide physical, emotional, and informational support before, during and after birth. I don't perform clinical tasks and I am not a medical professional, but I work
                 alongside your medical team to help you have the most positive birth experience possible. I am
                 professionally trained to help with comfort measures, labor positioning, decision-making,
@@ -231,7 +231,7 @@ export default function HomePage() {
               <AccordionTrigger className="text-left text-lg font-medium text-teal-700">
                 How is a doula different from a midwife?
               </AccordionTrigger>
-              <AccordionContent className="text-gray-700">
+              <AccordionContent className="text-gray-700 text-base">
                 Midwives are medical professionals responsible for the clinical aspects of your pregnancy and birth. As
                 a doula, I focus exclusively on the birthing person's comfort and emotional well-being. I don't perform
                 medical procedures or make decisions about your care. But I can help you understand your options and
@@ -242,7 +242,7 @@ export default function HomePage() {
               <AccordionTrigger className="text-left text-lg font-medium text-teal-700">
                 When should I hire a doula?
               </AccordionTrigger>
-              <AccordionContent className="text-gray-700">
+              <AccordionContent className="text-gray-700 text-base">
                 Many families hire a doula in the second trimester, around 20-24 weeks, but I can be hired at any point
                 in your pregnancy. Booking earlier gives us more time to build a relationship and prepare for your
                 birth, but I also accept last-minute clients when availability allows.
@@ -252,7 +252,7 @@ export default function HomePage() {
               <AccordionTrigger className="text-left text-lg font-medium text-teal-700">
                 Do you support all types of births?
               </AccordionTrigger>
-              <AccordionContent className="text-gray-700">
+              <AccordionContent className="text-gray-700 text-base">
                 Yes! I support people planning to give birth at the hospital, at a birth center, and at home. I
                 provide non-judgmental support for unmedicated births, epidurals, and cesarean births. I specialize in
                 supporting LGBTQ families who often face barriers to inclusive care in healthcare settings. I also speak
@@ -265,7 +265,7 @@ export default function HomePage() {
               <AccordionTrigger className="text-left text-lg font-medium text-teal-700">
                 Do you take insurance or workplace benefits like Carrot?
               </AccordionTrigger>
-              <AccordionContent className="text-gray-700">
+              <AccordionContent className="text-gray-700 text-base">
                 At this time you will not be able to get reimbursement for my services through insurance or benefits
                 like Carrot and Maven. I am working towards becoming an approved provider for these programs, which I
                 hope to complete in the near future. In the meantime, I am willing to discuss a rate or payment plan
@@ -276,7 +276,7 @@ export default function HomePage() {
               <AccordionTrigger className="text-left text-lg font-medium text-teal-700">
                 Can you tell me more about your pricing and what's included?
               </AccordionTrigger>
-              <AccordionContent className="text-gray-700">
+              <AccordionContent className="text-gray-700 text-base">
                 <p>I am currently offering discounted rates while I work towards getting certified. I also reserve a limited number of sliding scale spots for families in need. Please reach out to discuss packages, payment options, payment plans, or a reduced fee.</p>
                 <br /> 
   <p><strong>Birth support is a flat rate of $1,500</strong>, which includes:</p>
