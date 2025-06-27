@@ -45,19 +45,38 @@ export default function HomePage() {
       }
     }
 
+    // Allow copy/paste of text but remove images from clipboard
+    const handleCopy = (e: ClipboardEvent) => {
+      const selection = window.getSelection();
+      if (!selection || selection.isCollapsed) return;
+      const container = document.createElement('div');
+      for (let i = 0; i < selection.rangeCount; i++) {
+        container.appendChild(selection.getRangeAt(i).cloneContents());
+      }
+      // Remove all images
+      container.querySelectorAll('img').forEach(img => img.remove());
+      const text = container.textContent || '';
+      const html = container.innerHTML;
+      e.clipboardData?.setData('text/plain', text);
+      e.clipboardData?.setData('text/html', html);
+      e.preventDefault();
+    }
+
     document.addEventListener("contextmenu", handleContextMenu)
     document.addEventListener("dragstart", handleDragStart)
     document.addEventListener("keydown", handleKeyDown)
+    document.addEventListener("copy", handleCopy)
 
     return () => {
       document.removeEventListener("contextmenu", handleContextMenu)
       document.removeEventListener("dragstart", handleDragStart)
       document.removeEventListener("keydown", handleKeyDown)
+      document.removeEventListener("copy", handleCopy)
     }
   }, [])
 
   return (
-    <div className="flex min-h-screen flex-col no-context-menu overflow-x-hidden">
+    <div className="flex min-h-screen flex-col overflow-x-hidden">
       {/* Hero Section - Teal */}
       <header className="header-bg-sunrise bg-teal-50 py-24 text-left shadow-lg rounded-b-3xl">
         <div className="container px-4 md:px-8 max-w-4xl mx-auto">
