@@ -57,7 +57,7 @@ export default function HomePage() {
   }, [])
 
   return (
-    <div className="flex min-h-screen flex-col no-context-menu">
+    <div className="flex min-h-screen flex-col no-context-menu overflow-x-hidden">
       {/* Hero Section - Teal */}
       <header className="header-bg-sunrise bg-teal-50 py-20 text-left">
         <div className="container px-4 md:px-6">
@@ -77,8 +77,8 @@ export default function HomePage() {
       <section id="about" className="py-16 bg-white">
         <div className="container px-4 md:px-6">
           <h2 className="mb-6 text-center text-3xl font-bold text-teal-800">About Me</h2>
-          <div className="flex flex-col items-start gap-4 md:flex-row md:items-stretch">
-            <div className="md:w-1/3 flex items-center justify-center">
+          <div className="flex flex-col md:flex-row md:items-start gap-4 md:gap-8">
+            <div className="md:w-1/3 flex items-start justify-start">
               <div className="w-full max-w-xs aspect-[3/4] overflow-hidden rounded-lg border-4 border-teal-200 protect-container">
                 <Image
                   src="/images/chelsea-headshot.jpg"
@@ -101,8 +101,7 @@ export default function HomePage() {
               </p>
               <p className="mb-4 text-gray-700">
                 My path to doula work began after 12+ years as a climate justice advocate, campaigning for systemic
-                change on a global scale. Over time, I felt drawn to work that was more tangible and impactful in my
-                local community. Supporting family and friends with their newborns brought joy and clarity: I wanted to
+                change on a global scale. Over time, I found myself wanting to do work that felt more hands-on and directly connected to my local community. Supporting family and friends with their newborns brought joy and clarity: I wanted to
                 be of service to new families. My background in advocacy helps me show up with calm,
                 clarity, and purpose. At its core, my work—past and present—is rooted in justice, healing, and holding
                 space with compassion.
@@ -119,34 +118,34 @@ export default function HomePage() {
       </section>
 
       {/* Education / Training Section - Coral */}
-      <section id="education" className="bg-coral-50 py-16">
+      <section id="education" className="bg-teal-50 py-16">
         <div className="container px-4 md:px-6">
-          <h2 className="mb-12 text-center text-3xl font-bold text-coral-800">Education & Training</h2>
-          <div className="mx-auto max-w-3xl rounded-lg bg-white p-8 shadow-md border border-coral-200">
+          <h2 className="mb-12 text-center text-3xl font-bold text-teal-800">Education & Training</h2>
+          <div className="mx-auto max-w-3xl rounded-lg bg-white p-8 shadow-md border border-teal-200">
             <div className="space-y-4">
               <div className="flex flex-col sm:flex-row sm:justify-between">
-                <span className="font-medium text-sm sm:text-base text-coral-800">Birth Doula Training</span>
-                <span className="text-coral-800 text-sm sm:text-base">Natural Resources</span>
+                <span className="font-medium text-sm sm:text-base text-teal-800">Birth Doula Training</span>
+                <span className="text-teal-800 text-sm sm:text-base">Natural Resources</span>
               </div>
               <div className="flex flex-col sm:flex-row sm:justify-between">
-                <span className="font-medium text-sm sm:text-base text-coral-800">Postpartum Doula Training</span>
-                <span className="text-coral-800 text-sm sm:text-base">Natural Resources</span>
+                <span className="font-medium text-sm sm:text-base text-teal-800">Postpartum Doula Training</span>
+                <span className="text-teal-800 text-sm sm:text-base">Natural Resources</span>
               </div>
               <div className="flex flex-col sm:flex-row sm:justify-between">
-                <span className="font-medium text-sm sm:text-base text-coral-800">
+                <span className="font-medium text-sm sm:text-base text-teal-800">
                   Racism and Privilege in Birth Work
                 </span>
-                <span className="text-coral-800 text-sm sm:text-base">Birthing Advocacy Doula Training</span>
+                <span className="text-teal-800 text-sm sm:text-base">Birthing Advocacy Doula Training</span>
               </div>
               <div className="flex flex-col sm:flex-row sm:justify-between">
-                <span className="font-medium text-sm sm:text-base text-coral-800">
+                <span className="font-medium text-sm sm:text-base text-teal-800">
                   Adult and Pediatric First Aid/CPR/AED
                 </span>
-                <span className="text-coral-800 text-sm sm:text-base">American Red Cross</span>
+                <span className="text-teal-800 text-sm sm:text-base">American Red Cross</span>
               </div>
               <div className="flex flex-col sm:flex-row sm:justify-between">
-                <span className="font-medium text-sm sm:text-base text-coral-800">Bloodborne Pathogens</span>
-                <span className="text-coral-800 text-sm sm:text-base">American Red Cross</span>
+                <span className="font-medium text-sm sm:text-base text-teal-800">Bloodborne Pathogens</span>
+                <span className="text-teal-800 text-sm sm:text-base">American Red Cross</span>
               </div>
             </div>
           </div>
@@ -154,18 +153,18 @@ export default function HomePage() {
       </section>
 
       {/* Services Section - Blue */}
-      <section id="services" className="py-16 bg-blue-50">
+      <section id="services" className="py-16 bg-teal-50">
         <div className="container px-4 md:px-6">
-          <h2 className="mb-12 text-center text-3xl font-bold text-blue-800">Services Offered</h2>
+          <h2 className="mb-12 text-center text-3xl font-bold text-teal-800">Services Offered</h2>
 
           <div className="grid gap-8 md:grid-cols-3 max-w-5xl mx-auto">
             {/* Service Card 1 */}
-            <Card className="border-blue-200 bg-white h-[400px] w-[300px] mx-auto">
+            <Card className="border-teal-200 bg-white min-h-[340px] w-full max-w-xs mx-auto flex-1 shadow-md">
               <CardContent className="p-6 h-full flex flex-col">
-                <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-full bg-blue-100 mx-auto flex-shrink-0">
-                  <Heart className="h-6 w-6 text-blue-700" />
+                <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-full bg-teal-100 mx-auto flex-shrink-0">
+                  <Heart className="h-6 w-6 text-teal-700" />
                 </div>
-                <h3 className="mb-4 text-xl font-semibold text-blue-800 text-center">Birth Doula</h3>
+                <h3 className="mb-4 text-xl font-semibold text-teal-800 text-center">Birth Doula</h3>
                 <p className="text-gray-700 text-center flex-grow">
                   Support from pregnancy through birth, including personalized prenatal visits, practice with comfort
                   techniques, 24/7 on-call availability after 37 weeks, and continuous labor support.
@@ -176,14 +175,14 @@ export default function HomePage() {
             </Card>
 
             {/* Service Card 2 */}
-            <Card className="border-blue-200 bg-white h-[400px] w-[300px] mx-auto">
+            <Card className="border-teal-200 bg-white min-h-[340px] w-full max-w-xs mx-auto flex-1 shadow-md">
               <CardContent className="p-6 h-full flex flex-col">
-                <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-full bg-blue-100 mx-auto flex-shrink-0">
-                  <Home className="h-6 w-6 text-blue-700" />
+                <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-full bg-teal-100 mx-auto flex-shrink-0">
+                  <Home className="h-6 w-6 text-teal-700" />
                 </div>
-                <h3 className="mb-4 text-xl font-semibold text-blue-800 text-center">Postpartum Doula</h3>
-                <p className="text-gray-700 text-center flex-grow">
-                  In-home assistance after birth, including newborn guidance, breastfeeding/chestfeeding instruction, aid with physical recovery,
+                <h3 className="mb-4 text-xl font-semibold text-teal-800 text-center">Postpartum Doula</h3>
+                <p className="text-gray-700 text-center flex-grow break-normal hyphens-none" style={{ wordBreak: 'normal', hyphens: 'none' }}>
+                  In-home assistance after birth, including newborn guidance, breastfeeding / chestfeeding instruction, aid with physical recovery,
                   light household help, and emotional support.
                   <br /> <br />
                   $40/hr (24 hour minimum, total $960)
@@ -192,8 +191,8 @@ export default function HomePage() {
             </Card>
 
             {/* Photo Card */}
-            <div className="h-[400px] w-[300px] mx-auto">
-              <div className="overflow-hidden rounded-lg border-4 border-blue-200 shadow-lg w-full h-full protect-container">
+            <div className="h-[400px] w-full max-w-xs mx-auto flex-1">
+              <div className="overflow-hidden rounded-lg border-4 border-teal-200 w-full h-full protect-container flex items-center justify-center">
                 <Image
                   src="/images/doula-with-baby.jpg"
                   alt="Chelsea providing gentle newborn care support"
@@ -210,7 +209,7 @@ export default function HomePage() {
       </section>
 
       {/* FAQ Section - Teal */}
-      <section id="faq" className="bg-teal-50 py-16">
+      <section id="faq" className="bg-white py-16">
         <div className="container px-4 md:px-6">
           <h2 className="mb-12 text-center text-3xl font-bold text-teal-800">Frequently Asked Questions</h2>
           <Accordion type="single" collapsible className="mx-auto max-w-3xl">
@@ -305,40 +304,40 @@ export default function HomePage() {
       </section>
 
       {/* Contact Section - Coral */}
-      <section id="contact" className="bg-coral-50 py-16">
+      <section id="contact" className="bg-teal-50 py-16">
         <div className="container px-4 md:px-6">
-          <h2 className="mb-12 text-center text-3xl font-bold text-coral-800">Contact Me</h2>
-          <div className="mx-auto max-w-3xl rounded-lg bg-white p-8 shadow-md border border-coral-200">
+          <h2 className="mb-12 text-center text-3xl font-bold text-teal-800">Contact Me</h2>
+          <div className="mx-auto max-w-3xl rounded-lg bg-white p-8 shadow-md border border-teal-200">
             <p className="mb-6 text-center text-gray-700">
               I'd love to hear from you! Reach out to schedule a free consultation or ask any questions.
             </p>
             <div className="space-y-6">
               <div className="flex items-start gap-4">
-                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-coral-100 flex-shrink-0">
-                  <Mail className="h-6 w-6 text-coral-700" />
+                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-teal-100 flex-shrink-0">
+                  <Mail className="h-6 w-6 text-teal-700" />
                 </div>
                 <div className="min-w-0 flex-1">
-                  <h3 className="font-medium text-coral-800">Email</h3>
+                  <h3 className="font-medium text-teal-800">Email</h3>
                   <p className="text-gray-700 break-all text-sm sm:text-base">earlydayswithchelsea@gmail.com</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
-                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-coral-100 flex-shrink-0">
-                  <MapPin className="h-6 w-6 text-coral-700" />
+                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-teal-100 flex-shrink-0">
+                  <MapPin className="h-6 w-6 text-teal-700" />
                 </div>
                 <div className="min-w-0 flex-1">
-                  <h3 className="font-medium text-coral-800">Service Area</h3>
+                  <h3 className="font-medium text-teal-800">Service Area</h3>
                   <p className="text-gray-700 text-sm sm:text-base">
                     San Francisco, and parts of the East Bay, Marin, and the Peninsula.
                   </p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
-                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-coral-100 flex-shrink-0">
-                  <Calendar className="h-6 w-6 text-coral-700" />
+                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-teal-100 flex-shrink-0">
+                  <Calendar className="h-6 w-6 text-teal-700" />
                 </div>
                 <div className="min-w-0 flex-1">
-                  <h3 className="font-medium text-coral-800">Availability</h3>
+                  <h3 className="font-medium text-teal-800">Availability</h3>
                   <p className="text-gray-700 text-sm sm:text-base">Currently accepting clients</p>
                 </div>
               </div>
