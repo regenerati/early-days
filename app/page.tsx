@@ -117,15 +117,14 @@ export default function HomePage() {
               <p className="mb-4 text-gray-700">
                 My path to doula work began after 12+ years as a climate justice advocate, campaigning for systemic
                 change on a global scale. Over time, I found myself wanting to do work that felt more hands-on and directly connected to my local community. Supporting family and friends with their newborns brought joy and clarity: I wanted to
-                be of service to new families. My background in advocacy helps me show up calm, with
-                clarity and purpose. At its core, my work—past and present—is rooted in justice, healing, and holding
+                be of service to new families. My background in advocacy helps me show up calm and with purpose. At its core, my work—past and present—is rooted in justice, healing, and holding
                 space with compassion.
               </p>
               <p className="text-gray-700">
                 I serve all birthing people and specialize in supporting LGBTQ families. I'm here to help you navigate
                 decisions with confidence, hold space for your feelings, and offer physical and emotional support.
                 Whether you need a hand, a voice of reassurance, or someone to walk alongside you from day one, I'm
-                here. <b>Let me help make the early days of parenthood feel a little lighter.</b>
+                here. <b>I would be honored to help make your early days of parenthood feel a little lighter.</b>
               </p>
             </div>
           </div>
@@ -183,7 +182,7 @@ export default function HomePage() {
                 <p className="text-gray-700 text-center flex-grow">
                   Support from pregnancy through birth, including personalized prenatal visits, practice with comfort
                   techniques, 24/7 on-call availability after 37 weeks, and continuous labor support.
-                  <br /> <br /> $1,500 total
+                  <br /> <br /> $1,500
                 </p>
               </CardContent>
             </Card>
@@ -199,7 +198,9 @@ export default function HomePage() {
                   In-home assistance after birth, including newborn guidance, breastfeeding / chestfeeding instruction, aid with physical recovery,
                   light household help, and emotional support.
                   <br /> <br />
-                  $40/hr (24 hour minimum, total $960)
+                  Starting at $1000
+                  <br /> 
+                  $40/hr (25 hour minimum)
                 </p>
               </CardContent>
             </Card>
