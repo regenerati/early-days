@@ -268,7 +268,7 @@ export default function HomePage() {
               </AccordionTrigger>
               <AccordionContent className="text-gray-700 text-base">
                 Yes! I support people planning to give birth at the hospital, at a birth center, and at home. I
-                provide non-judgmental support for unmedicated births, epidurals, and cesarean births. I specialize in
+                provide support for unmedicated births, epidurals, and cesarean births. I specialize in
                 supporting LGBTQ families who often face barriers to inclusive care in healthcare settings. I also speak
                 Spanish.
                 <br />  <br /> 
