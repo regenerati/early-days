@@ -304,7 +304,7 @@ export default function HomePage() {
   <br /> 
   <p>Additional prenatal or postpartum visits can be added for an extra fee.</p>
 <br /> 
-  <p><strong>Postpartum support is $40 per hour</strong>, with a minimum of <strong>24 total hours</strong> (totaling $960).</p>
+  <p><strong>Postpartum support is $40 per hour</strong>, with a minimum of <strong>25 total hours</strong> (totaling $1000).</p>
   <p>Postpartum scheduling is flexible. We'll work together to create a package of visits spread out over several weeks, with the option to extend.</p>
   <ul className="list-disc list-inside space-y-1 text-gray-600 pl-6">
     <li>Daytime and evening visits: Minimum of 3 hours</li>
