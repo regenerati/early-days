@@ -116,7 +116,7 @@ export default function HomePage() {
               </p>
               <p className="mb-4 text-gray-700">
                 My path to doula work began after 12+ years as a climate justice advocate, campaigning for systemic
-                change on a global scale. Over time, I found myself wanting to do work that felt more hands-on and directly connected to my local community. Supporting family and friends with their newborns brought joy and clarity: I wanted to
+                change on a global scale. Over time, I found myself wanting to do work that is hands-on and directly connected to my local community. Supporting family and friends with their newborns brought joy and clarity: I wanted to
                 be of service to new families. My background in advocacy helps me show up calm and with purpose. At its core, my work—past and present—is rooted in justice, healing, and holding
                 space with compassion.
               </p>
