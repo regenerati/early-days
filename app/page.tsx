@@ -120,11 +120,14 @@ export default function HomePage() {
                 be of service to new families. My background in advocacy helps me show up calm and with purpose. At its core, my work—past and present—is rooted in justice, healing, and holding
                 space with compassion.
               </p>
-              <p className="text-gray-700">
+              <p className="mb-4 text-gray-700">
                 I serve all birthing people and specialize in supporting LGBTQ families. I'm here to help you navigate
                 decisions with confidence, hold space for your feelings, and offer physical and emotional support.
-                Whether you need a hand, a voice of reassurance, or someone to walk alongside you from day one, I'm
+                Whether you need a hand, a voice of reassurance, or someone to walk alongside you, I'm
                 here. <b>I would be honored to help make your early days of parenthood feel a little lighter.</b>
+              </p>
+              <p className="mb-4 text-gray-700">
+                I am based in San Francisco where I live with my partner and two cuddly cats. In my free time you can find me playing congas in a community Cuban ensemble, dancing salsa with friends, or watching Valkyries games.  
               </p>
             </div>
           </div>
