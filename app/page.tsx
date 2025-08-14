@@ -280,9 +280,16 @@ export default function HomePage() {
                   <li>Overnight visits: Minimum of 8 hours (I schedule a limited number of overnight shifts. If you need more extensive overnight support, I'm happy to refer you to a night doula.)</li>
                 </ul>
                 <br />
-                <p><strong>Full spectrum support</strong> is priced based on individual needs. Please reach out to discuss your specific situation and how I can best support you.</p>
+                <p><strong>Full spectrum support</strong> is priced based on individual needs. Please reach out to discuss your specific situation and how I can best support you. Some examples of support I can provide:</p> 
+                <ul className="list-disc list-inside space-y-1 text-gray-600 pl-6">
+                  <li>Accompany you to medical appointments and procedures, or provide physical support at your home </li>
+                  <li>Offer rituals, memory-making ideas, or help planning farewells</li>
+                  <li>Hold space to feel and process emotions (grief, relief, confusion, etc.)</li>
+                  <li>Provide information and resources on what to expect and how to care for oneself</li>
+                  <li>Offer referrals to other providers (therapists, body workers, support groups, etc.)</li>
+                  </ul>
                 <br />
-                <p>All my clients are provided with reliable backup from trusted doulas in my network, so you can count on support as expected.</p>
+                <p><strong>All my clients are provided with reliable backup from trusted doulas in my network, so you can count on support as expected.</strong></p>
               </AccordionContent>
             </AccordionItem>
           </Accordion>
