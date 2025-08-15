@@ -76,7 +76,7 @@ export default function HomePage() {
       </section>
 
       {/* Services Section - Light Teal */}
-      <section id="services" className="py-16 bg-teal-50">
+      <section id="services" className="py-16" style={{ backgroundColor: '#B7D9D3' }}>
         <div className="container px-4 md:px-6">
           <h2 className={`mb-12 text-center text-3xl font-bold text-teal-800 ${yeseva.className}`}>Services Offered</h2>
           <div className="grid gap-8 md:grid-cols-3 max-w-5xl mx-auto">
@@ -155,38 +155,38 @@ export default function HomePage() {
       </section>
 
       {/* Education / Training Section - Light Teal */}
-      <section id="education" className="bg-teal-50 py-16">
+      <section id="education" className="py-16" style={{ backgroundColor: '#B7D9D3' }}>
         <div className="container px-4 md:px-6">
           <h2 className={`mb-12 text-center text-3xl font-bold text-teal-800 ${yeseva.className}`}>Education & Training</h2>
-          <div className="mx-auto max-w-3xl rounded-lg bg-white p-8 shadow-md">
+          <div className="mx-auto max-w-3xl rounded-lg bg-white p-8 shadow-md text-gray-700">
             <div className="space-y-4">
               <div className="flex flex-col sm:flex-row sm:justify-between">
-                <span className="font-medium text-sm sm:text-base text-teal-800">Birth Doula Training</span>
-                <span className="text-teal-800 text-sm sm:text-base">Natural Resources</span>
+                <span className="font-medium text-sm sm:text-base">Birth Doula Training</span>
+                <span className="text-sm sm:text-base">Natural Resources</span>
               </div>
               <div className="flex flex-col sm:flex-row sm:justify-between">
-                <span className="font-medium text-sm sm:text-base text-teal-800">Postpartum Doula Training</span>
-                <span className="text-teal-800 text-sm sm:text-base">Natural Resources</span>
+                <span className="font-medium text-sm sm:text-base">Postpartum Doula Training</span>
+                <span className="text-sm sm:text-base">Natural Resources</span>
               </div>
               <div className="flex flex-col sm:flex-row sm:justify-between">
-                <span className="font-medium text-sm sm:text-base text-teal-800">Foundations of Laction Education</span>
-                <span className="text-teal-800 text-sm sm:text-base">UC San Diego</span>
+                <span className="font-medium text-sm sm:text-base">Foundations of Laction Education</span>
+                <span className="text-sm sm:text-base">UC San Diego</span>
                 </div>
               <div className="flex flex-col sm:flex-row sm:justify-between">
-                <span className="font-medium text-sm sm:text-base text-teal-800">Racism and Privilege in Birth Work</span>
-                <span className="text-teal-800 text-sm sm:text-base">Birthing Advocacy Doula Training</span>
+                <span className="font-medium text-sm sm:text-base">Racism and Privilege in Birth Work</span>
+                <span className="text-sm sm:text-base">Birthing Advocacy Doula Training</span>
               </div>
               <div className="flex flex-col sm:flex-row sm:justify-between">
-                <span className="font-medium text-sm sm:text-base text-teal-800">Perinatal Loss: The Invisible Grief </span>
-                <span className="text-teal-800 text-sm sm:text-base">Heart Bridge Training</span>
+                <span className="font-medium text-sm sm:text-base">Perinatal Loss: The Invisible Grief </span>
+                <span className="text-sm sm:text-base">Heart Bridge Training</span>
               </div>
               <div className="flex flex-col sm:flex-row sm:justify-between">
-                <span className="font-medium text-sm sm:text-base text-teal-800">Adult and Pediatric First Aid/CPR/AED</span>
-                <span className="text-teal-800 text-sm sm:text-base">American Red Cross</span>
+                <span className="font-medium text-sm sm:text-base">Adult and Pediatric First Aid/CPR/AED</span>
+                <span className="text-sm sm:text-base">American Red Cross</span>
               </div>
               <div className="flex flex-col sm:flex-row sm:justify-between">
-                <span className="font-medium text-sm sm:text-base text-teal-800">Bloodborne Pathogens</span>
-                <span className="text-teal-800 text-sm sm:text-base">American Red Cross</span>
+                <span className="font-medium text-sm sm:text-base">Bloodborne Pathogens</span>
+                <span className="text-sm sm:text-base">American Red Cross</span>
               </div>
             </div>
           </div>
