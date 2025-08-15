@@ -54,23 +54,16 @@ export default function HomePage() {
             </div>
             <div className="md:w-2/3 flex flex-col justify-center text-lg leading-relaxed text-gray-700 space-y-6">
               <p className="text-gray-700">
-                <b>Hello, I'm Chelsea Matthews!</b> (she/her) I'm a birth and postpartum doula supporting individuals and families in the San Francisco Bay Area. I believe everyone deserves to feel empowered throughout their birth journey. My approach combines evidence-based expertise with compassionate, non-judgmental care to help
-                you feel informed and truly supported during this transformative time.
+                <b>Hi, I'm Chelsea Matthews!</b> I'm a birth and postpartum doula serving individuals and families in the San Francisco Bay Area. I believe everyone deserves to feel empowered throughout their birth journey. My approach blends evidence-based expertise and warm, non-judgmental care, so you feel informed and truly supported during this transformative time.
               </p>
               <p className="text-gray-700">
-                My path to doula work began after 12+ years as a climate justice advocate, campaigning for systemic
-                change on a global scale. Over time, I found myself wanting to do work that is hands-on and directly connected to my local community. Supporting family and friends with their newborns brought joy and clarity: I wanted to
-                be of service to new families. My background in advocacy helps me show up calm and with purpose. At its core, my work past and present is rooted in justice, healing, and holding
-                space with compassion.
+                I came to doula work after 12+ years as a climate justice advocate, driven to do more hands-on, community-based work. Helping loved ones with their newborns brought me so much joy—and made it clear that supporting new families was where I wanted to be. My advocacy work still shows up in how I hold space: calm, intentional, and grounded in compassion and justice.
               </p>
               <p className="text-gray-700">
-                I serve all birthing people and specialize in supporting LGBTQ families. I'm here to help you navigate
-                decisions with confidence, hold space for your feelings, and offer physical and emotional support.
-                Whether you need a hand, a voice of reassurance, or someone to walk alongside you, I'm
-                here. <b>I would be honored to help make your early days of parenthood feel a little lighter.</b>
+                I support all birthing people and specialize in LGBTQ families. I'm here to help you navigate choices with confidence, hold space for your emotions, and offer physical support. Whether you need hands-on help, a steady presence, or someone to listen, I’m here for you. <b>I would be honored to help make your early days of parenthood feel a little lighter.</b>
               </p>
               <p className="text-gray-700">
-                I am based in San Francisco where I live with my partner and two cuddly cats. In my free time you can find me playing congas in a community Cuban ensemble, dancing salsa with friends, or watching Valkyries games.
+                I live in San Francisco with my partner and two cuddly cats. In my free time, I play congas in a community Cuban ensemble, dance salsa with friends, and cheer on the Valkyries.
               </p>
             </div>
           </div>
