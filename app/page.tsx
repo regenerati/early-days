@@ -25,7 +25,7 @@ export default function HomePage() {
         <div className="container px-4 md:px-8 max-w-4xl mx-auto">
           <h1 className={`${yeseva.className} text-5xl font-bold tracking-tight text-teal-800 sm:text-6xl md:text-7xl text-left drop-shadow-md`}>Early Days with Chelsea</h1>
           <p className="mt-6 text-2xl text-teal-700 text-left font-light max-w-2xl">Compassionate doula support for birth and postpartum.</p>
-          <Button asChild className="mt-10 bg-gradient-to-r from-teal-600 to-teal-400 hover:from-teal-700 hover:to-teal-500 text-white px-8 py-4 rounded-full shadow-lg text-lg font-semibold transition-all duration-200" size="lg">
+          <Button asChild className="mt-10 bg-teal-800 hover:bg-teal-900 text-white rounded-md shadow-lg text-lg font-semibold transition-all duration-200 h-12 px-8" size="lg">
             <a href="#contact">Book a Free Consultation</a>
           </Button>
         </div>
