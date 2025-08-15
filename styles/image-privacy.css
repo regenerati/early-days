@@ -1,0 +1,12 @@
+/* Prevent right-click, drag, and pointer events on all images, but allow text selection */
+img, .protect-image {
+  -webkit-user-drag: none;
+  pointer-events: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
