@@ -57,7 +57,7 @@ export default function HomePage() {
                 <b>Hi, I'm Chelsea Matthews!</b> I'm a birth and postpartum doula serving individuals and families in the San Francisco Bay Area. I believe everyone deserves to feel empowered throughout their birth journey. My approach blends evidence-based expertise and warm, non-judgmental care, so you feel informed and truly supported during this transformative time.
               </p>
               <p className="text-gray-700">
-                I came to doula work after 12+ years as a climate justice advocate, driven to do more hands-on, community-based work. Helping loved ones with their newborns brought me so much joy—and made it clear that supporting new families was where I wanted to be. My advocacy work still shows up in how I hold space: calm, intentional, and grounded in compassion and justice.
+                I came to doula work after 12+ years as a climate justice advocate, driven to do more hands-on, community-based work. Helping loved ones with their newborns brought me so much joy, and made it clear that supporting new families was where I wanted to be. My advocacy work still shows up in how I hold space: calm, intentional, and grounded in compassion and justice.
               </p>
               <p className="text-gray-700">
                 I support all birthing people and specialize in LGBTQ families. I'm here to help you navigate choices with confidence, hold space for your emotions, and offer physical support. Whether you need hands-on help, a steady presence, or someone to listen, I’m here for you. <b>I would be honored to help make your early days of parenthood feel a little lighter.</b>
