@@ -129,7 +129,7 @@ export default function HomePage() {
           <div className="flex flex-col md:flex-row md:items-center gap-12 max-w-5xl mx-auto">
             <div className="md:w-1/2 w-full text-lg leading-relaxed text-gray-700">
               <p className="text-gray-700">
-                I understand the barriers to inclusive care in healthcare settings. I'm here to provide affirming, respectful support for LGBTQ and gender non-conforming families of all shapes and sizes. My work is grounded in a commitment to queer and gender justice, and I believe that protecting LGBTQ reproductive autonomy is both a direct action and a pathway to cultivating queer joy. Whether you're seeking a safe space, guidance on LGBTQ-friendly perinatal providers, or resources for gender-affirming birth and postpartum care, I'm here to support you. Every family deserves to feel seen, heard, and celebrated in their reproductive journey.
+                I understand the barriers to inclusive care in healthcare settings. I'm here to provide affirming, respectful support for LGBTQ and gender non-conforming families of all shapes and sizes. My work is grounded in a commitment to queer and gender justice, and I believe that protecting LGBTQ reproductive autonomy is both a direct action and a pathway to cultivating queer joy. If you're seeking a safe space, guidance on LGBTQ-friendly perinatal providers, or resources for gender-affirming birth and postpartum care, I'm here to support you. Every family deserves to feel seen, heard, and celebrated in their reproductive journey.
               </p>
             </div>
             <div className="md:w-1/2 w-full flex justify-center">
