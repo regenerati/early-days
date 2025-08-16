@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import "../styles/image-privacy.css"
+import "../styles/header-bg.css"
 import { Card, CardContent } from "@/components/ui/card"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import { Heart, Mail, MapPin, Calendar, Home, HandHeart, Baby } from "lucide-react"
