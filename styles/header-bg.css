@@ -1,16 +1,15 @@
 .header-bg-sunrise {
   position: relative;
-  background-image: url('/images/sunrise.png');
-  background-size: 37% auto;
-  background-position: calc(100% - 24px) bottom;
+  background-image: url('/images/vecteezy_sf.jpeg');
+  background-size: cover;
+  background-position: center 50%;
   background-repeat: no-repeat;
 }
 .header-bg-sunrise::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: inherit;
-  opacity: 1;
+  background: rgba(0, 0, 0, 0.3);
   z-index: 0;
   pointer-events: none;
 }

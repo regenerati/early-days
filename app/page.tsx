@@ -22,14 +22,17 @@ export default function HomePage() {
 
   return (
     <div className="flex min-h-screen flex-col overflow-x-hidden bg-gray-50">
-      {/* Hero Section - Light Teal */}
-      <header className="header-bg-sunrise" style={{ backgroundColor: '#B7D9D3' }}>
+      {/* Hero Section - with SF Background */}
+      <header className="header-bg-sunrise relative">
         <div className="container px-6 md:px-12 max-w-4xl mx-auto py-28 text-left rounded-b-3xl">
-          <h1 className={`${yeseva.className} text-6xl font-bold tracking-wide text-teal-800 sm:text-7xl md:text-8xl text-left drop-shadow-lg leading-tight`}>Early Days with Chelsea</h1>
-          <p className="mt-8 text-2xl text-teal-800 text-left font-light max-w-2xl leading-relaxed">Compassionate doula support for birth and postpartum.</p>
+          <h1 className={`${yeseva.className} text-6xl font-bold tracking-wide text-white sm:text-7xl md:text-8xl text-left drop-shadow-lg leading-tight`}>Early Days with Chelsea</h1>
+          <p className="mt-8 text-2xl text-white text-left font-light max-w-2xl leading-relaxed drop-shadow-md"><b>Compassionate doula support for birth and postpartum.</b></p>
           <Button asChild className="mt-12 bg-teal-800 hover:bg-teal-900 text-white rounded-lg shadow-lg text-xl font-semibold transition-all duration-200 h-14 px-10 flex items-center gap-2 focus:outline-none focus:ring-2 focus:ring-teal-400" size="lg">
             <a href="#contact" className="max-w-xs w-full flex items-center justify-start"><Calendar className="inline-block mr-2 h-6 w-6" />Book a Free Consultation</a>
           </Button>
+        </div>
+        <div className="absolute bottom-2 right-0 text-xs text-white/70 hover:text-white/90 transition-colors text-right w-full">
+          <a href="https://www.vecteezy.com/free-photos/buildings" className="hover:underline pr-4">Buildings Stock photos by Vecteezy</a>
         </div>
       </header>
 
