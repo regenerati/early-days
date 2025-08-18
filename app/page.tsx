@@ -341,7 +341,7 @@ export default function HomePage() {
           <p>© {year} Early Days with Chelsea. All rights reserved.</p>
           <p className="mt-3 text-base text-teal-50">Support for the early days of parenthood.</p>
         </div>
-       <p className="mt-3 text-base text-teal-50"><a href="https://www.vecteezy.com/free-photos/buildings" className="hover:underline pr-4">Buildings Stock photos by Vecteezy</a></p>
+       <p className="mt-3 text-xs text-teal-200"><a href="https://www.vecteezy.com/free-photos/buildings" className="hover:underline pr-4">Buildings Stock photos by Vecteezy</a></p>
       </footer>
     </div>
   )
