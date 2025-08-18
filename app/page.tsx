@@ -31,9 +31,7 @@ export default function HomePage() {
             <a href="#contact" className="max-w-xs w-full flex items-center justify-start"><Calendar className="inline-block mr-2 h-6 w-6" />Book a Free Consultation</a>
           </Button>
         </div>
-        <div className="absolute bottom-2 right-0 text-xs text-white/70 hover:text-white/90 transition-colors text-right w-full">
-          <a href="https://www.vecteezy.com/free-photos/buildings" className="hover:underline pr-4">Buildings Stock photos by Vecteezy</a>
-        </div>
+        
       </header>
 
       {/* About Me Section - White */}
@@ -343,6 +341,7 @@ export default function HomePage() {
           <p>© {year} Early Days with Chelsea. All rights reserved.</p>
           <p className="mt-3 text-base text-teal-50">Support for the early days of parenthood.</p>
         </div>
+       <p className="mt-3 text-base text-teal-50"><a href="https://www.vecteezy.com/free-photos/buildings" className="hover:underline pr-4">Buildings Stock photos by Vecteezy</a></p>
       </footer>
     </div>
   )
