@@ -167,7 +167,7 @@ export default function HomePage() {
                 <span className="text-sm sm:text-base">Natural Resources</span>
               </div>
               <div className="flex flex-col sm:flex-row sm:justify-between">
-                <span className="font-medium text-sm sm:text-base">Foundations of Laction Education</span>
+                <span className="font-medium text-sm sm:text-base">Foundations of Lactation Education</span>
                 <span className="text-sm sm:text-base">UC San Diego</span>
                 </div>
               <div className="flex flex-col sm:flex-row sm:justify-between">
