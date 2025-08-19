@@ -24,7 +24,7 @@ export default function HomePage() {
     <div className="flex min-h-screen flex-col overflow-x-hidden bg-gray-50">
       {/* Hero Section - with SF Background */}
       <header className="header-bg-sunrise relative">
-        <div className="container px-6 md:px-12 max-w-4xl mx-auto py-28 text-left rounded-b-3xl">
+        <div className="container px-6 md:px-12 max-w-4xl mx-auto py-12 sm:py-20 md:py-28 text-left rounded-b-3xl">
           <h1 className={`${yeseva.className} text-6xl font-bold tracking-wide text-white sm:text-7xl md:text-8xl text-left drop-shadow-lg leading-tight`}>Early Days with Chelsea</h1>
           <p className="mt-8 text-2xl text-white text-left font-light max-w-2xl leading-relaxed drop-shadow-md"><b>Compassionate doula support for birth and postpartum.</b></p>
           <Button asChild className="mt-12 bg-teal-800 hover:bg-teal-900 text-white rounded-lg shadow-lg text-xl font-semibold transition-all duration-200 h-14 px-10 flex items-center gap-2 focus:outline-none focus:ring-2 focus:ring-teal-400" size="lg">
