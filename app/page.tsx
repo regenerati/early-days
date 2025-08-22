@@ -245,6 +245,14 @@ export default function HomePage() {
             </AccordionItem>
             <AccordionItem value="item-4b">
               <AccordionTrigger className="text-left text-lg font-medium text-teal-700">
+                Are you up-to-date on vaccinations?
+              </AccordionTrigger>
+              <AccordionContent className="text-gray-700 text-base">
+                Yes, I am fully vaccinated with all recommended vaccines, including COVID-19 (with boosters), Tdap, and the flu vaccine. I also have a current TB test on file. I take the health and safety of my clients very seriously and am happy to wear a mask upon request.
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-4b">
+              <AccordionTrigger className="text-left text-lg font-medium text-teal-700">
                 Do you take insurance or workplace benefits like Carrot?
               </AccordionTrigger>
               <AccordionContent className="text-gray-700 text-base">
