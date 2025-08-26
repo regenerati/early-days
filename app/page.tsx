@@ -243,7 +243,7 @@ export default function HomePage() {
                 I can also provide full spectrum doula support, honoring and assisting individuals through all pregnancy outcomes, not just live birth but also abortion, miscarriage, stillbirth, surrogacy, and adoption.
               </AccordionContent>
             </AccordionItem>
-            <AccordionItem value="item-4b">
+            <AccordionItem value="item-5">
               <AccordionTrigger className="text-left text-lg font-medium text-teal-700">
                 Are you up-to-date on vaccinations?
               </AccordionTrigger>
@@ -251,18 +251,16 @@ export default function HomePage() {
                 Yes, I am fully vaccinated with all recommended vaccines, including COVID-19 (with boosters), Tdap, and the flu vaccine. I also have a current TB test on file. I take the health and safety of my clients very seriously and am happy to wear a mask upon request.
               </AccordionContent>
             </AccordionItem>
-            <AccordionItem value="item-4b">
+            <AccordionItem value="item-6">
               <AccordionTrigger className="text-left text-lg font-medium text-teal-700">
                 Do you take insurance or workplace benefits like Carrot?
               </AccordionTrigger>
               <AccordionContent className="text-gray-700 text-base">
-                At this time you will not be able to get reimbursement for my services through insurance or benefits
-                like Carrot and Maven. I am working towards becoming an approved provider for these programs, which I
-                hope to complete in the near future. In the meantime, I am willing to discuss a rate or payment plan
+                I only accept reimbursement through Kaiser, at this moment.  I am working towards becoming an approved provider for other insurance carriers and for benefit programs like Carrot, Maven, and Progyny. In the meantime, I am willing to discuss a rate or payment plan
                 that works for you.
               </AccordionContent>
             </AccordionItem>
-            <AccordionItem value="item-5">
+            <AccordionItem value="item-7">
               <AccordionTrigger className="text-left text-lg font-medium text-teal-700">
                 Can you tell me more about your pricing and what's included?
               </AccordionTrigger>
