@@ -24,16 +24,14 @@ export default function HomePage() {
     <div className="flex min-h-screen flex-col overflow-x-hidden bg-gray-50">
       {/* Hero Section - with SF Background */}
       <header className="header-bg-sunrise relative">
-        <div className="container px-6 md:px-12 max-w-4xl mx-auto py-28 text-left rounded-b-3xl">
+        <div className="container px-6 md:px-12 max-w-4xl mx-auto py-12 sm:py-20 md:py-28 text-left rounded-b-3xl">
           <h1 className={`${yeseva.className} text-6xl font-bold tracking-wide text-white sm:text-7xl md:text-8xl text-left drop-shadow-lg leading-tight`}>Early Days with Chelsea</h1>
           <p className="mt-8 text-2xl text-white text-left font-light max-w-2xl leading-relaxed drop-shadow-md"><b>Compassionate doula support for birth and postpartum.</b></p>
           <Button asChild className="mt-12 bg-teal-800 hover:bg-teal-900 text-white rounded-lg shadow-lg text-xl font-semibold transition-all duration-200 h-14 px-10 flex items-center gap-2 focus:outline-none focus:ring-2 focus:ring-teal-400" size="lg">
             <a href="#contact" className="max-w-xs w-full flex items-center justify-start"><Calendar className="inline-block mr-2 h-6 w-6" />Book a Free Consultation</a>
           </Button>
         </div>
-        <div className="absolute bottom-2 right-0 text-xs text-white/70 hover:text-white/90 transition-colors text-right w-full">
-          <a href="https://www.vecteezy.com/free-photos/buildings" className="hover:underline pr-4">Buildings Stock photos by Vecteezy</a>
-        </div>
+        
       </header>
 
       {/* About Me Section - White */}
@@ -126,14 +124,14 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* LGBTQ and Gender Affirming Support Section - White, two-column modern */}
+      {/* LGBTQ and Gender-Affirming Support Section - White, two-column modern */}
       <section id="lgbtq-support" className="bg-white py-20">
         <div className="container px-6 md:px-12">
-          <h2 className={`mb-10 text-center text-4xl font-bold text-teal-800 tracking-wide ${yeseva.className}`}>LGBTQ and Gender Affirming Support</h2>
+          <h2 className={`mb-10 text-center text-4xl font-bold text-teal-800 tracking-wide ${yeseva.className}`}>LGBTQ and Gender-Affirming Support</h2>
           <div className="flex flex-col md:flex-row md:items-center gap-12 max-w-5xl mx-auto">
             <div className="md:w-1/2 w-full text-lg leading-relaxed text-gray-700">
               <p className="text-gray-700">
-                I understand the barriers to inclusive care in healthcare settings. I'm here to provide affirming, respectful support for LGBTQ and gender non-conforming families of all shapes and sizes. My work is grounded in a commitment to queer and gender justice, and I believe that protecting LGBTQ reproductive autonomy is both a direct action and a pathway to cultivating queer joy. If you're seeking a safe space, guidance on LGBTQ-friendly perinatal providers, or resources for gender-affirming birth and postpartum care, I'm here to support you. Every family deserves to feel seen, heard, and celebrated in their reproductive journey.
+                I understand the barriers to inclusive care in healthcare settings. I provide affirming, respectful support for LGBTQ and gender non-conforming families of all shapes and sizes. My work is grounded in a commitment to queer and gender justice, and I believe that protecting LGBTQ reproductive autonomy is both a direct action and a pathway to cultivating queer joy. If you're seeking a safe space, guidance on LGBTQ-friendly perinatal providers, or resources for gender-affirming birth and postpartum care, I'm here to support you. Every family deserves to feel seen, heard, and celebrated in their reproductive journey.
               </p>
             </div>
             <div className="md:w-1/2 w-full flex justify-center">
@@ -169,7 +167,7 @@ export default function HomePage() {
                 <span className="text-sm sm:text-base">Natural Resources</span>
               </div>
               <div className="flex flex-col sm:flex-row sm:justify-between">
-                <span className="font-medium text-sm sm:text-base">Foundations of Laction Education</span>
+                <span className="font-medium text-sm sm:text-base">Foundations of Lactation Education</span>
                 <span className="text-sm sm:text-base">UC San Diego</span>
                 </div>
               <div className="flex flex-col sm:flex-row sm:justify-between">
@@ -245,7 +243,15 @@ export default function HomePage() {
                 I can also provide full spectrum doula support, honoring and assisting individuals through all pregnancy outcomes, not just live birth but also abortion, miscarriage, stillbirth, surrogacy, and adoption.
               </AccordionContent>
             </AccordionItem>
-            <AccordionItem value="item-5">
+            <AccordionItem value="item-4b">
+              <AccordionTrigger className="text-left text-lg font-medium text-teal-700">
+                Are you up-to-date on vaccinations?
+              </AccordionTrigger>
+              <AccordionContent className="text-gray-700 text-base">
+                Yes, I am fully vaccinated with all recommended vaccines, including COVID-19 (with boosters), Tdap, and the flu vaccine. I also have a current TB test on file. I take the health and safety of my clients very seriously and am happy to wear a mask upon request.
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-4b">
               <AccordionTrigger className="text-left text-lg font-medium text-teal-700">
                 Do you take insurance or workplace benefits like Carrot?
               </AccordionTrigger>
@@ -254,7 +260,7 @@ export default function HomePage() {
                 that works for you.
               </AccordionContent>
             </AccordionItem>
-            <AccordionItem value="item-6">
+            <AccordionItem value="item-5">
               <AccordionTrigger className="text-left text-lg font-medium text-teal-700">
                 Can you tell me more about your pricing and what's included?
               </AccordionTrigger>
@@ -341,6 +347,7 @@ export default function HomePage() {
           <p>© {year} Early Days with Chelsea. All rights reserved.</p>
           <p className="mt-3 text-base text-teal-50">Support for the early days of parenthood.</p>
         </div>
+       <p className="mt-3 text-xs text-teal-200"><a href="https://www.vecteezy.com/free-photos/buildings" className="hover:underline pr-4">Buildings Stock photos by Vecteezy</a></p>
       </footer>
     </div>
   )
