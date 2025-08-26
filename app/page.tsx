@@ -256,7 +256,9 @@ export default function HomePage() {
                 Do you take insurance or workplace benefits like Carrot?
               </AccordionTrigger>
               <AccordionContent className="text-gray-700 text-base">
-                I only accept reimbursement through Kaiser, at this moment. I am working towards becoming an approved provider for other insurance carriers and benefits like Carrot, Maven, and Progyny. In the meantime, I am willing to discuss a rate or payment plan
+                At this time you will not be able to get reimbursement for my services through insurance or benefits
+                like Carrot and Maven. I am working towards becoming an approved provider for these programs, which I
+                hope to complete in the near future. In the meantime, I am willing to discuss a rate or payment plan
                 that works for you.
               </AccordionContent>
             </AccordionItem>
