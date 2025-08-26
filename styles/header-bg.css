@@ -21,8 +21,7 @@
 
 @media (max-width: 640px) {
   .header-bg-sunrise {
-    background-size: cover;
-  background-position: center;  
-  background-repeat: no-repeat;
+    background-size: 60% auto !important;
+    background-position: right bottom !important;
   }
 }
