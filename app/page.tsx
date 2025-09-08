@@ -160,7 +160,7 @@ export default function HomePage() {
             <div className="space-y-6">
               <div className="flex flex-col sm:flex-row sm:justify-between">
                 <span className="font-medium text-sm sm:text-base">UCSF Doula Program</span>
-                <span className="text-sm sm:text-base">ZSFG</span>
+                <span className="text-sm sm:text-base">ZSFG Birth Center</span>
               </div>
               <div className="flex flex-col sm:flex-row sm:justify-between">
                 <span className="font-medium text-sm sm:text-base">Birth Doula Training</span>
