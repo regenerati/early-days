@@ -274,6 +274,7 @@ export default function HomePage() {
                 <p><strong>Birth support is a flat rate of $1,500</strong>, which includes:</p>
                 <ul className="list-disc list-inside space-y-1 text-gray-600 pl-6">
                   <li>Two prenatal visits</li>
+                  <li>24/7 on-call availability after 37 weeks</li>
                   <li>Continuous labor support</li>
                   <li>Two postpartum visits</li>
                   <li>Ongoing email, text, and phone support</li>
