@@ -41,7 +41,7 @@ export default function Services() {
                 <li>Two personalized, in-home prenatal visits where I supplement your childbirth education, clarify your birthing preferences, practice comfort techniques and labor positions, and teach your partner how to support you</li>
                 <li>24/7 on-call availability from 37-42 weeks gestation</li>
                 <li>Continuous labor support</li>
-                <li>Two personalized, in-home postpartum visits, including assistance with self-care recovery measures and lactation and baby feeding support</li>
+                <li>Two personalized, in-home postpartum visits, including assistance with self-care recovery measures, and lactation and baby feeding support</li>
                 <li>Ongoing email, text, and phone support</li>
                 <li>Access to evidence-based resources and referrals to healthcare providers</li>
                 <li>Reliable back-up from trusted doulas in my network</li>
@@ -70,8 +70,8 @@ export default function Services() {
               <ul className="list-disc list-inside space-y-1 text-gray-600 pl-6 mb-4">
                 <li>Hands-on assistance with self-care recovery measures for healing after birth</li>
                 <li>Newborn care support (diapering, soothing, bathing) to give parents time to rest and recharge</li>
-                <li>Support for all feeding choices, including breastfeeding and bottle-feeding</li>
-                <li>Help with light household tasks, such as laundry, dishes, and general tidying</li>
+                <li>Support for all feeding choices, including breastfeeding / chestfeeding and bottle feeding</li>
+                <li>Help with light household tasks, such as laundry, dishes, and tidying</li>
                 <li>Preparation of simple, nourishing meals and snacks</li>
                 <li>Emotional support and a listening ear</li>
                 <li>Referrals to trusted professionals and local resources as needed</li>
