@@ -7,7 +7,7 @@ import { DesktopNav } from "@/components/desktop-nav"
 
 const yeseva = Yeseva_One({ weight: '400', subsets: ["latin"] })
 
-export default function ServicesPage() {
+export default function Services() {
   return (
     <div className="flex min-h-screen flex-col bg-gray-50">
       <div className="hidden md:block"><DesktopNav /></div>
