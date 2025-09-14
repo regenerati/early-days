@@ -2,21 +2,20 @@
   position: relative;
   background-image: url('/images/vecteezy_sf.jpeg');
   background-size: cover;
-  background-position: center 50%;
+  background-position: center 37%;
   background-repeat: no-repeat;
 }
+
 .header-bg-sunrise::before {
   content: "";
   position: absolute;
   inset: 0;
   background: rgba(0, 0, 0, 0.3);
-  z-index: 0;
   pointer-events: none;
 }
 
 .header-bg-sunrise > * {
   position: relative;
-  z-index: 1;
 }
 
 @media (max-width: 640px) {
