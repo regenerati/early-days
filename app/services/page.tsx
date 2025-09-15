@@ -52,7 +52,7 @@ export default function Services() {
                 <li>Access to evidence-based resources and referrals to healthcare providers</li>
                 <li>Reliable back-up from trusted doulas in my network</li>
               </ul>
-              <p className="text-lg text-gray-700 leading-relaxed">Additional prenatal or postpartum visits can be added for an extra fee.</p>
+              <p className="text-lg text-gray-700 leading-relaxed">Additional prenatal or postpartum visits can be added for an extra fee. <Link href="/#contact"><strong style={{color: 'teal'}}>Contact me</strong></Link> to learn more.</p>
             </div>
           </div>
         </section>
@@ -82,7 +82,7 @@ export default function Services() {
                 <li>Emotional support and a listening ear</li>
                 <li>Referrals to trusted professionals and local resources as needed</li>
               </ul>
-              <p className="text-lg text-gray-700 leading-relaxed mb-2">I will create a package of visits tailored to your needs, with the option to extend if I'm available. I prioritize day shifts of 3hrs minimum but I can do occasional 8hr overnight shifts.</p>
+              <p className="text-lg text-gray-700 leading-relaxed mb-2">I will create a package of visits tailored to your needs, with the option to extend if I'm available. I prioritize day shifts of 3hrs minimum but I can do occasional 8hr overnight shifts.<Link href="/#contact"><strong style={{color: 'teal'}}> Email me</strong></Link> to learn more.</p>
             </div>
           </div>
         </section>
@@ -112,7 +112,7 @@ export default function Services() {
                 <li>Help you set up your home for the arrival of a baby</li>
                 <li>Offer referrals to other providers (therapists, body workers, support groups, etc.)</li>
               </ul>
-              <p className="text-lg text-gray-700 leading-relaxed mb-2 mt-0">Please reach out to discuss your specific situation and how I can best support you.</p>
+              <p className="text-lg text-gray-700 leading-relaxed mb-2 mt-0">Please <Link href="/#contact"><strong style={{color: 'teal'}}>reach out</strong></Link> to discuss your specific situation and how I can best support you.</p>
             </div>
           </div>
         </section>
