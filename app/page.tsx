@@ -33,7 +33,7 @@ export default function HomePage() {
         <div className="container px-6 md:px-12 max-w-4xl mx-auto py-12 sm:py-20 md:py-28 text-left rounded-b-3xl">
           <h1 className={`${yeseva.className} text-6xl font-bold tracking-wide text-white sm:text-6xl md:text-7xl text-left drop-shadow-lg leading-tight`}><br />Birth &<br />Postpartum<br />Doula Support<br />in the SF Bay Area</h1>
           <p className="mt-8 text-2xl text-white text-left font-light max-w-2xl leading-relaxed drop-shadow-md"><b>Support for the early days of parenthood.</b></p>
-         <br /><br />
+         <br />
           <Button asChild className="mt-12 bg-teal-800 hover:bg-teal-900 text-white rounded-lg shadow-lg text-xl font-semibold transition-all duration-200 h-14 px-10 flex items-center gap-2 focus:outline-none focus:ring-2 focus:ring-teal-400" size="lg">
             <a href="#contact" className="max-w-xs w-full flex items-center justify-start"><Calendar className="inline-block mr-2 h-6 w-6" /> Book a Free Consultation</a>
           </Button>
