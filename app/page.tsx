@@ -81,7 +81,10 @@ export default function HomePage() {
       {/* Services Section - Modern Card Layout */}
       <section id="services" className="py-20 scroll-mt-16" style={{ backgroundColor: '#B7D9D3' }}>
         <div className="container px-6 md:px-12">
-          <h2 className={`mb-12 text-center text-4xl font-bold text-teal-800 tracking-wide ${yeseva.className}`}>Services Offered</h2>
+          <h2 className={`mb-6 text-center text-4xl font-bold text-teal-800 tracking-wide ${yeseva.className}`}>Services Offered</h2>
+          <Button asChild className="mx-auto mt-6 mb-10 bg-teal-800 hover:bg-teal-900 text-white rounded-lg shadow-lg text-base font-semibold transition-all duration-200 h-10 px-6 flex items-center gap-2 focus:outline-none focus:ring-2 focus:ring-teal-400" size="lg">
+            <a href="#contact" className="max-w-xs w-full flex items-center justify-start"><Calendar className="inline-block mr-2 h-5 w-5" /> Book a Free Consultation</a>
+          </Button>
           <div className="grid gap-10 md:grid-cols-3 max-w-6xl mx-auto">
             {/* Service Card 1 */}
             <Link href="/services#birth-doula" className="block focus:outline-none focus:ring-2 focus:ring-teal-400 rounded-xl" passHref legacyBehavior>
