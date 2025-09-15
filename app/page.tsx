@@ -32,7 +32,7 @@ export default function HomePage() {
         </div>
         <div className="container px-6 md:px-12 max-w-4xl mx-auto py-12 sm:py-20 md:py-28 text-left rounded-b-3xl">
           <h1 className={`${yeseva.className} text-6xl font-bold tracking-wide text-white sm:text-6xl md:text-7xl text-left drop-shadow-lg leading-tight`}><br />Birth &<br />Postpartum<br />Doula Support<br />in the SF Bay Area</h1>
-          <p className="mt-8 text-2xl text-white text-left font-light max-w-2xl leading-relaxed drop-shadow-md"><b>Support for the early days of parenthood.</b></p>
+          <p className="mt-8 text-2xl text-white text-left font-light max-w-2xl leading-relaxed drop-shadow-md"><strong>Support for the early days of parenthood.</strong></p>
          <br />
           <Button asChild className="mt-12 bg-teal-800 hover:bg-teal-900 text-white rounded-lg shadow-lg text-xl font-semibold transition-all duration-200 h-14 px-10 flex items-center gap-2 focus:outline-none focus:ring-2 focus:ring-teal-400" size="lg">
             <a href="#contact" className="max-w-xs w-full flex items-center justify-start"><Calendar className="inline-block mr-2 h-6 w-6" /> Book a Free Consultation</a>
@@ -68,7 +68,7 @@ export default function HomePage() {
                 I came to doula work after 12+ years as a climate justice advocate, driven to do more hands-on, community-based work. Helping loved ones with their newborns brought me so much joy, and made it clear that supporting new families was where I wanted to be. My advocacy work still shows up in how I hold space: calm, intentional, and grounded in compassion and justice.
               </p>
               <p className="text-gray-700">
-                I support all birthing people and specialize in LGBTQ families. I'm here to help you navigate choices with confidence, hold space for your emotions, and offer physical support. Whether you need hands-on help, a steady presence, or someone to listen, I’m here for you. <b>I would be honored to help make your early days of parenthood feel a little lighter.</b>
+                I support all birthing people and specialize in LGBTQ families. I'm here to help you navigate choices with confidence, hold space for your emotions, and offer physical support. Whether you need hands-on help, a steady presence, or someone to listen, I’m here for you. <strong>I would be honored to help make your early days of parenthood feel a little lighter.</strong>
               </p>
               <p className="text-gray-700">
                 I live in San Francisco with my partner and two cuddly cats. In my free time, I play congas in a community Cuban ensemble, dance salsa with friends, and cheer on the Valkyries.
@@ -93,7 +93,7 @@ export default function HomePage() {
                 <h3 className="mb-6 text-2xl font-semibold text-teal-800 text-center">Birth Doula</h3>
                 <p className="text-gray-700 text-center flex-grow text-lg">
                   Support from pregnancy through birth, including personalized prenatal visits, practice with comfort techniques, 24/7 on-call availability after 37 weeks, and continuous labor support.
-                  <br /> <br /> Click for details and pricing.
+                  <br /> <br /> <strong style={{color: 'teal'}}>Click</strong> for details and pricing.
                 </p>
               </CardContent>
             </Card>
@@ -109,7 +109,7 @@ export default function HomePage() {
                 <p className="text-gray-700 text-center flex-grow text-lg">
                   In-home assistance after birth, including newborn guidance, breastfeeding / chestfeeding instruction, aid with physical recovery, light household help, and emotional support.
                   <br /> <br /> <br />
-                  Click for details and pricing.
+                  <strong style={{color: 'teal'}}>Click</strong> for details and pricing.
                 </p>
               </CardContent>
             </Card>
@@ -125,7 +125,7 @@ export default function HomePage() {
                 <p className="text-gray-700 text-center flex-grow text-lg">
                   Support for all pregnancy outcomes, including abortion, miscarriage, stillbirth, surrogacy, and adoption. I provide care and resources tailored to your needs and experience.
                   <br /> <br />
-                  Click for details and pricing.
+                  <strong style={{color: 'teal'}}>Click</strong> for details and pricing.
                 </p>
               </CardContent>
             </Card>
