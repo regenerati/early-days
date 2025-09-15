@@ -93,7 +93,7 @@ export default function HomePage() {
                 <h3 className="mb-6 text-2xl font-semibold text-teal-800 text-center">Birth Doula</h3>
                 <p className="text-gray-700 text-center flex-grow text-lg">
                   Support from pregnancy through birth, including personalized prenatal visits, practice with comfort techniques, 24/7 on-call availability after 37 weeks, and continuous labor support.
-                  <br /> <br /> $1,600
+                  <br /> <br /> Click for details and pricing.
                 </p>
               </CardContent>
             </Card>
@@ -108,10 +108,8 @@ export default function HomePage() {
                 <h3 className="mb-6 text-2xl font-semibold text-teal-800 text-center">Postpartum Doula</h3>
                 <p className="text-gray-700 text-center flex-grow text-lg">
                   In-home assistance after birth, including newborn guidance, breastfeeding / chestfeeding instruction, aid with physical recovery, light household help, and emotional support.
-                  <br /> <br />
-                  Starting at $1000
-                  <br />
-                  $40/hr (25 hour minimum)
+                  <br /> <br /> <br />
+                  Click for details and pricing.
                 </p>
               </CardContent>
             </Card>
@@ -127,7 +125,7 @@ export default function HomePage() {
                 <p className="text-gray-700 text-center flex-grow text-lg">
                   Support for all pregnancy outcomes, including abortion, miscarriage, stillbirth, surrogacy, and adoption. I provide care and resources tailored to your needs and experience.
                   <br /> <br />
-                  Pricing based on individual needs. Please inquire.
+                  Click for details and pricing.
                 </p>
               </CardContent>
             </Card>
