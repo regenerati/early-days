@@ -6,6 +6,7 @@ import Image from "next/image"
 import { Yeseva_One } from "next/font/google"
 import { Navigation } from "@/components/navigation"
 import { DesktopNav } from "@/components/desktop-nav"
+import Link from "next/link"
 
 const yeseva = Yeseva_One({ weight: '400', subsets: ["latin"] })
 
@@ -19,7 +20,7 @@ export default function Services() {
         <div className="relative container mx-auto px-6 md:px-12 max-w-4xl text-justify">
           <h1 className={`${yeseva.className} text-4xl sm:text-5xl font-bold tracking-wide text-white text-center drop-shadow-lg mt-12`}>Services & Pricing</h1>
            <Button asChild className="mx-auto mt-12 bg-teal-800 hover:bg-teal-900 text-white rounded-lg shadow-lg text-xl font-semibold transition-all duration-200 h-14 px-10 flex items-center gap-2 focus:outline-none focus:ring-2 focus:ring-teal-400" size="lg">
-            <a href="/#contact" className="max-w-xs w-full flex items-center justify-start"><Calendar className="inline-block mr-2 h-6 w-6" /> Book a Free Consultation</a>
+            <Link href="/#contact" className="max-w-xs w-full flex items-center justify-start"><Calendar className="inline-block mr-2 h-6 w-6" /> Book a Free Consultation</Link>
           </Button>
         </div>
       </header>
