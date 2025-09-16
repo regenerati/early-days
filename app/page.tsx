@@ -82,9 +82,6 @@ export default function HomePage() {
       <section id="services" className="py-20 scroll-mt-16" style={{ backgroundColor: '#B7D9D3' }}>
         <div className="container px-6 md:px-12">
           <h2 className={`mb-6 text-center text-4xl font-bold text-teal-800 tracking-wide ${yeseva.className}`}>Services Offered</h2>
-          <Button asChild className="mx-auto mt-6 mb-10 bg-teal-800 hover:bg-teal-900 text-white rounded-lg shadow-lg text-base font-semibold transition-all duration-200 h-10 px-6 flex items-center gap-2 focus:outline-none focus:ring-2 focus:ring-teal-400" size="lg">
-            <a href="#contact" className="max-w-xs w-full flex items-center justify-start"><Calendar className="inline-block mr-2 h-5 w-5" /> Book a Free Consultation</a>
-          </Button>
           <div className="grid gap-10 md:grid-cols-3 max-w-6xl mx-auto">
             {/* Service Card 1 */}
             <Link href="/services#birth-doula" className="block focus:outline-none focus:ring-2 focus:ring-teal-400 rounded-xl" passHref legacyBehavior>
@@ -95,7 +92,7 @@ export default function HomePage() {
                 </div>
                 <h3 className="mb-6 text-2xl font-semibold text-teal-800 text-center">Birth Doula</h3>
                 <p className="text-gray-700 text-center flex-grow text-lg">
-                  Support from pregnancy through birth, including personalized prenatal visits, practice with comfort techniques, 24/7 on-call availability after 37 weeks, and continuous labor support.
+                  Support from pregnancy through birth, including personalized prenatal visits, on-call from 37 weeks, and continuous labor support.
                   <br /> <br /> <strong style={{color: 'teal'}}>Click</strong> for details and pricing.
                 </p>
               </CardContent>
@@ -110,7 +107,7 @@ export default function HomePage() {
                 </div>
                 <h3 className="mb-6 text-2xl font-semibold text-teal-800 text-center">Postpartum Doula</h3>
                 <p className="text-gray-700 text-center flex-grow text-lg">
-                  In-home assistance after birth, including newborn guidance, breastfeeding / chestfeeding instruction, aid with physical recovery, light household help, and emotional support.
+                  In-home assistance after birth, including newborn guidance, lactation support, and aid with physical recovery.
                   <br /> <br />
                   <strong style={{color: 'teal'}}>Click</strong> for details and pricing.
                 </p>
@@ -126,7 +123,7 @@ export default function HomePage() {
                 </div>
                 <h3 className="mb-6 text-2xl font-semibold text-teal-800 text-center">Full Spectrum Doula</h3>
                 <p className="text-gray-700 text-center flex-grow text-lg">
-                  Support for all pregnancy outcomes, including abortion, miscarriage, stillbirth, surrogacy, and adoption. I provide care and resources tailored to your needs and experience.
+                  Customizable support for all pregnancy outcomes, including abortion, miscarriage, stillbirth, surrogacy, and adoption.
                   <br /> <br />
                   <strong style={{color: 'teal'}}>Click</strong> for details and pricing.
                 </p>
@@ -134,6 +131,9 @@ export default function HomePage() {
             </Card>
             </Link>
           </div>
+          <Button asChild className="mx-auto mt-12 bg-teal-800 hover:bg-teal-900 text-white rounded-lg shadow-lg text-xl font-semibold transition-all duration-200 h-14 px-10 flex items-center gap-2 focus:outline-none focus:ring-2 focus:ring-teal-400" size="lg">
+            <a href="#contact" className="max-w-xs w-full flex items-center justify-start"><Calendar className="inline-block mr-2 h-5 w-5" /> Book a Free Consultation</a>
+          </Button>
         </div>
       </section>
 
