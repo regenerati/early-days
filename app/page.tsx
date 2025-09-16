@@ -111,7 +111,7 @@ export default function HomePage() {
                 <h3 className="mb-6 text-2xl font-semibold text-teal-800 text-center">Postpartum Doula</h3>
                 <p className="text-gray-700 text-center flex-grow text-lg">
                   In-home assistance after birth, including newborn guidance, breastfeeding / chestfeeding instruction, aid with physical recovery, light household help, and emotional support.
-                  <br /> <br /> <br />
+                  <br /> <br />
                   <strong style={{color: 'teal'}}>Click</strong> for details and pricing.
                 </p>
               </CardContent>
