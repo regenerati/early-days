@@ -303,7 +303,7 @@ export default function HomePage() {
             </p>
             <div className="space-y-8">
               <div className="flex items-start gap-6">
-                <div className="flex h-14 w-14 items-center justify-center rounded-full bg-gradient-to-br from-teal-100 to-teal-200 flex-shrink-0 shadow">
+                <div className="flex h-14 w-14 items-center justify-center rounded-full bg-teal-100 flex-shrink-0 shadow">
                   <Mail className="h-7 w-7 text-teal-700" />
                 </div>
                 <div className="min-w-0 flex-1">
@@ -312,7 +312,7 @@ export default function HomePage() {
                 </div>
               </div>
               <div className="flex items-start gap-6">
-                <div className="flex h-14 w-14 items-center justify-center rounded-full bg-gradient-to-br from-teal-100 to-teal-200 flex-shrink-0 shadow">
+                <div className="flex h-14 w-14 items-center justify-center rounded-full bg-teal-100 flex-shrink-0 shadow">
                   <MapPin className="h-7 w-7 text-teal-700" />
                 </div>
                 <div className="min-w-0 flex-1">
@@ -321,7 +321,7 @@ export default function HomePage() {
                 </div>
               </div>
               <div className="flex items-start gap-6">
-                <div className="flex h-14 w-14 items-center justify-center rounded-full bg-gradient-to-br from-teal-100 to-teal-200 flex-shrink-0 shadow">
+                <div className="flex h-14 w-14 items-center justify-center rounded-full bg-teal-100 flex-shrink-0 shadow">
                   <Calendar className="h-7 w-7 text-teal-700" />
                 </div>
                 <div className="min-w-0 flex-1">
