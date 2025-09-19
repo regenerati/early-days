@@ -42,7 +42,7 @@ export default function Services() {
             </div>
             {/* Column 2: price, bullet list, extra info */}
             <div className="flex flex-col justify-start mt-8 md:mt-16">
-              <p className="text-lg text-gray-700 leading-relaxed mb-2"><strong>Birth support is a flat rate of $1,600</strong>, which includes:</p>
+              <p className="text-lg text-gray-700 leading-relaxed mb-2"><strong>Birth support is a flat rate of $1,800</strong>, which includes:</p>
               <ul className="list-disc list-inside space-y-1 text-gray-600 pl-6 mb-4">
                 <li>Two personalized, in-home prenatal visits where I supplement your childbirth education, clarify your birthing preferences, practice comfort techniques and labor positions, and teach your partner how to support you</li>
                 <li>24/7 on-call availability from 37-42 weeks gestation</li>
