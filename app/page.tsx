@@ -277,7 +277,7 @@ export default function HomePage() {
                 Do you take insurance or workplace benefits like Carrot?
               </AccordionTrigger>
               <AccordionContent className="text-gray-700 text-base">
-                I only accept reimbursement through Kaiser (commercial plans only), at this moment. There is $0 out-of-pocket cost for qualifying Kaiser-insured clients.  I am working towards becoming an approved provider for other insurance carriers and for benefit programs like Carrot, Maven, and Progyny. In the meantime, I am willing to discuss a rate or payment plan
+                At this moment, I only accept insurance billing through Kaiser (commercial plans only). There is $0 out-of-pocket cost for qualifying Kaiser-insured clients.  I am working towards becoming an approved provider for other insurance carriers and for benefit programs like Carrot, Maven, and Progyny. In the meantime, I am willing to discuss a rate or payment plan
                 that works for you.
               </AccordionContent>
             </AccordionItem>
