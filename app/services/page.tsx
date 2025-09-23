@@ -47,6 +47,7 @@ export default function Services() {
                 <li>Two personalized, in-home prenatal visits where I supplement your childbirth education, clarify your birthing preferences, practice comfort techniques and labor positions, and teach your partner how to support you</li>
                 <li>24/7 on-call availability from 37-42 weeks gestation</li>
                 <li>Continuous labor support</li>
+                <li>Access to a TENS unit to borrow for labor</li>
                 <li>Two personalized, in-home postpartum visits, including assistance with self-care recovery measures, and lactation and baby feeding support</li>
                 <li>Ongoing email, text, and phone support</li>
                 <li>Access to evidence-based resources and referrals to healthcare providers</li>
