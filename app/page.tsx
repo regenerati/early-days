@@ -326,7 +326,7 @@ export default function HomePage() {
                 </div>
                 <div className="min-w-0 flex-1">
                   <h3 className="font-medium text-teal-800 text-lg">Availability</h3>
-                  <p className="text-gray-700 text-lg leading-relaxed">Currently accepting clients with EDDs in November and beyond.</p>
+                  <p className="text-gray-700 text-lg leading-relaxed">Currently accepting clients with EDDs in December and beyond.</p>
                 </div>
               </div>
             </div>
