@@ -3,12 +3,12 @@
 import { Button } from "@/components/ui/button"
 import { Calendar } from "lucide-react"
 import Image from "next/image"
-import { Yeseva_One } from "next/font/google"
+import { Merriweather } from "next/font/google"
 import { Navigation } from "@/components/navigation"
 import { DesktopNav } from "@/components/desktop-nav"
 import Link from "next/link"
 
-const yeseva = Yeseva_One({ weight: '400', subsets: ["latin"] })
+const merriweather = Merriweather({ weight: ['400', '700'], subsets: ["latin"] })
 
 export default function Services() {
   return (
@@ -18,7 +18,7 @@ export default function Services() {
       {/* Small Header */}
       <header className="relative header-bg-sunrise py-16 overflow-hidden">
         <div className="relative container mx-auto px-6 md:px-12 max-w-4xl text-justify">
-          <h1 className={`${yeseva.className} text-4xl sm:text-5xl font-bold tracking-wide text-white text-center drop-shadow-lg mt-16`}>Services & Pricing</h1>
+          <h1 className={`${merriweather.className} text-4xl sm:text-5xl font-bold tracking-wide text-white text-center drop-shadow-lg mt-16 font-bold`}>Services & Pricing</h1>
            <Button asChild className="mx-auto mt-8 bg-teal-800 hover:bg-teal-900 text-white rounded-lg shadow-lg text-xl font-semibold transition-all duration-200 h-14 px-10 flex items-center gap-2 focus:outline-none focus:ring-2 focus:ring-teal-400" size="lg">
             <Link href="/#contact" className="max-w-xs w-full flex items-center justify-start"><Calendar className="inline-block mr-2 h-6 w-6" /> Book a Free Consultation</Link>
           </Button>
@@ -30,7 +30,7 @@ export default function Services() {
           <div className="container px-6 md:px-12 max-w-4xl mx-auto md:grid md:grid-cols-2 gap-8 flex flex-col">
             {/* Column 1: Heading, paragraph, image */}
             <div className="flex flex-col items-start mb-8 md:mb-0">
-              <h2 className={`mb-8 text-left text-4xl font-bold text-teal-800 tracking-wide ${yeseva.className}`}>Birth Doula</h2>
+              <h2 className={`mb-8 text-left text-4xl font-bold text-teal-800 tracking-wide ${merriweather.className} font-bold`}>Birth Doula</h2>
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
                 As your birth doula, I provide physical, emotional, and informational support to you before, during, and shortly after childbirth. My role is to help create a calm, empowering environment while offering guidance and comfort measures throughout labor. Studies show that professional doula support is associated with a significant reduction in medical interventions during childbirth, which contributes to improved maternal health outcomes and increased parental satisfaction with the birth experience.
               </p>
@@ -62,7 +62,7 @@ export default function Services() {
           <div className="container px-6 md:px-12 max-w-4xl mx-auto md:grid md:grid-cols-2 gap-8 flex flex-col">
             {/* Column 1: Heading, paragraph, image */}
             <div className="flex flex-col items-start mb-8 md:mb-0">
-              <h2 className={`mb-8 text-left text-4xl font-bold text-teal-800 tracking-wide ${yeseva.className}`}>Postpartum Doula</h2>
+              <h2 className={`mb-8 text-left text-4xl font-bold text-teal-800 tracking-wide ${merriweather.className} font-bold`}>Postpartum Doula</h2>
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
                 As your postpartum doula, I provide physical, emotional, and informational support during the weeks and months after your baby is born. My role is to help ease your transition into parenthood by offering practical assistance, newborn care guidance, and a supportive presence as you recover and adjust. Research shows that postpartum doula support can reduce the risk of postpartum depression, improve infant feeding outcomes, and enhance overall family well-being during this critical period.</p>
               <div className="w-full flex justify-center">
@@ -92,7 +92,7 @@ export default function Services() {
           <div className="container px-6 md:px-12 max-w-4xl mx-auto md:grid md:grid-cols-2 gap-8 flex flex-col">
             {/* Column 1: Heading, paragraph, image */}
             <div className="flex flex-col items-start mb-8 md:mb-0">
-              <h2 className={`mb-8 text-left text-4xl font-bold text-teal-800 tracking-wide ${yeseva.className}`}>Full Spectrum Doula</h2>
+              <h2 className={`mb-8 text-left text-4xl font-bold text-teal-800 tracking-wide ${merriweather.className} font-bold`}>Full Spectrum Doula</h2>
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
                 Pregnancy can lead to many different outcomes, not all of which result in parenting or a live birth. As a full spectrum doula, I provide compassionate, non-medical support through the full range of reproductive experiences, including miscarriage, stillbirth, abortion, adoption, and surrogacy. My role is to offer emotional, physical, and informational care that's tailored to your unique circumstances, needs, and choices. I offer customizable doula packages to support your entire journey, from pregnancy through postpartum.
               </p>

@@ -9,12 +9,12 @@ import { Heart, Mail, MapPin, Calendar, Home, HandHeart, Baby } from "lucide-rea
 import Image from "next/image"
 import React, { useEffect, useState } from "react"
 import { Navigation } from "@/components/navigation"
-import { Yeseva_One } from "next/font/google"
+import { Merriweather } from "next/font/google"
 import { DesktopNav } from "@/components/desktop-nav"
 
 import Link from "next/link"
 
-const yeseva = Yeseva_One({  weight: '400', subsets: ["latin"] })
+const merriweather = Merriweather({ weight: ['400', '700'], subsets: ["latin"] })
 
 export default function HomePage() {
   const [year, setYear] = useState(2025);
@@ -30,20 +30,26 @@ export default function HomePage() {
         <div className="container mx-auto px-6 md:px-12 max-w-4xl relative">
           <Navigation />
         </div>
-        <div className="container px-2 sm:px-6 md:px-12 mx-auto py-12 sm:py-20 md:py-28 text-left rounded-b-3xl">
-          <h1 className={`${yeseva.className} font-bold tracking-wide text-white text-left drop-shadow-lg whitespace-normal leading-tight text-[clamp(1.5rem,8vw,4rem)]`}><br />Birth &<br />Postpartum<br />Doula Support<br />in the SF Bay Area</h1>
-          <p className="mt-8 text-2xl text-white text-left font-light max-w-2xl leading-relaxed drop-shadow-md"><strong>Support for the early days of parenthood.</strong></p>
-         <br />
-          <Button asChild className="mt-12 bg-teal-800 hover:bg-teal-900 text-white rounded-lg shadow-lg text-xl font-semibold transition-all duration-200 h-14 px-10 flex items-center gap-2 focus:outline-none focus:ring-2 focus:ring-teal-400" size="lg">
-            <a href="#contact" className="max-w-xs w-full flex items-center justify-start"><Calendar className="inline-block mr-2 h-6 w-6" /> Book a Free Consultation</a>
-          </Button>
+        <div className="container px-6 md:px-12 max-w-4xl mx-auto py-12 sm:py-20 md:py-28 text-left rounded-b-3xl flex flex-col items-start">
+          <h1 className={`${merriweather.className} text-6xl font-bold tracking-wide text-white sm:text-6xl md:text-7xl drop-shadow-lg font-bold mt-12`}>
+            <span className="block mb-4">Birth &</span>
+            <span className="block mb-4">Postpartum</span>
+            <span className="block mb-4">Doula Support</span>
+            <span className="block">in the SF Bay Area</span>
+          </h1>
+          <p className="mt-8 text-2xl text-white font-light max-w-2xl leading-relaxed drop-shadow-md text-left"><strong>Support for the early days of parenthood.</strong></p>
+          <div className="w-full flex justify-start">
+            <Button asChild className="mt-12 bg-teal-800 hover:bg-teal-900 text-white rounded-lg shadow-lg text-xl font-semibold transition-all duration-200 h-14 px-10 flex items-center gap-2 focus:outline-none focus:ring-2 focus:ring-teal-400" size="lg">
+              <a href="#contact" className="max-w-xs w-full flex items-center justify-start"><Calendar className="inline-block mr-2 h-6 w-6" /> Book a Free Consultation</a>
+            </Button>
+          </div>
         </div>
       </header>
 
       {/* About Me Section - White */}
       <section id="about" className="py-20 bg-white scroll-mt-16">
         <div className="container px-6 md:px-12">
-          <h2 className={`mb-8 text-center text-4xl font-bold text-teal-800 tracking-wide ${yeseva.className}`}>Hi, I'm Chelsea Matthews!</h2>
+          <h2 className={`mb-8 text-center text-4xl font-bold text-teal-800 tracking-wide ${merriweather.className} font-bold`}>Hi, I'm Chelsea Matthews!</h2>
           <div className="flex flex-col md:flex-row md:items-start gap-8 justify-center">
             <div className="md:w-1/3 flex items-start justify-start">
               <div className="w-full max-w-sm aspect-[3/4] overflow-hidden rounded-xl shadow-lg protect-container">
@@ -81,7 +87,7 @@ export default function HomePage() {
       {/* Services Section - Modern Card Layout */}
       <section id="services" className="py-20 scroll-mt-16" style={{ backgroundColor: '#B7D9D3' }}>
         <div className="container px-6 md:px-12">
-          <h2 className={`mb-6 text-center text-4xl font-bold text-teal-800 tracking-wide ${yeseva.className}`}>Services Offered</h2>
+          <h2 className={`mb-6 text-center text-4xl font-bold text-teal-800 tracking-wide ${merriweather.className} font-bold`}>Services Offered</h2>
           <div className="grid gap-10 md:grid-cols-3 max-w-6xl mx-auto">
             {/* Service Card 1 */}
             <Link href="/services#birth-doula" className="block focus:outline-none focus:ring-2 focus:ring-teal-400 rounded-xl" passHref legacyBehavior>
@@ -140,7 +146,7 @@ export default function HomePage() {
       {/* LGBTQ+ and Gender-Affirming Support Section - White, two-column modern */}
       <section id="lgbtq-support" className="bg-white py-20 scroll-mt-16">
         <div className="container px-6 md:px-12">
-          <h2 className={`mb-10 text-center text-4xl font-bold text-teal-800 tracking-wide ${yeseva.className}`}>LGBTQ+ and Gender-Affirming Support</h2>
+          <h2 className={`mb-10 text-center text-4xl font-bold text-teal-800 tracking-wide ${merriweather.className} font-bold`}>LGBTQ+ and Gender-Affirming Support</h2>
           <div className="flex flex-col md:flex-row md:items-center gap-12 max-w-5xl mx-auto">
             <div className="md:w-1/2 w-full text-lg leading-relaxed text-gray-700">
               <p className="text-gray-700">
@@ -168,7 +174,7 @@ export default function HomePage() {
       {/* Education / Training Section - Modern Card Layout */}
       <section id="education" className="py-20 scroll-mt-16" style={{ backgroundColor: '#B7D9D3' }}>
         <div className="container px-6 md:px-12">
-          <h2 className={`mb-12 text-center text-4xl font-bold text-teal-800 tracking-wide ${yeseva.className}`}>Education & Training</h2>
+          <h2 className={`mb-12 text-center text-4xl font-bold text-teal-800 tracking-wide ${merriweather.className} font-bold`}>Education & Training</h2>
           <div className="mx-auto max-w-3xl rounded-xl bg-white p-10 shadow-lg text-gray-700">
             <div className="space-y-6">
               <div className="flex flex-col sm:flex-row sm:justify-between">
@@ -215,7 +221,7 @@ export default function HomePage() {
       {/* FAQ Section - White modern */}
       <section id="faq" className="bg-white py-20">
         <div className="container px-6 md:px-12">
-          <h2 className={`mb-12 text-center text-4xl font-bold text-teal-800 tracking-wide ${yeseva.className}`}>Frequently Asked Questions</h2>
+          <h2 className={`mb-12 text-center text-4xl font-bold text-teal-800 tracking-wide ${merriweather.className} font-bold`}>Frequently Asked Questions</h2>
           <Accordion type="single" collapsible className="mx-auto max-w-3xl">
             <AccordionItem value="item-1">
               <AccordionTrigger className="text-left text-lg font-medium text-teal-700">
@@ -295,7 +301,7 @@ export default function HomePage() {
       {/* Contact Section - Teal-800 modern */}
       <section id="contact" className="py-20 scroll-mt-16 bg-teal-800">
         <div className="container px-6 md:px-12">
-          <h2 className={`mb-12 text-center text-4xl font-bold text-white tracking-wide ${yeseva.className}`}>Contact Me</h2>
+          <h2 className={`mb-12 text-center text-4xl font-bold text-white tracking-wide ${merriweather.className} font-bold`}>Contact Me</h2>
           <div className="mx-auto max-w-3xl rounded-xl bg-white p-10 shadow-lg">
             <p className="mb-8 text-center text-gray-700 text-lg leading-relaxed">
               I'd love to hear from you! Reach out to schedule a free consultation or ask any questions.
