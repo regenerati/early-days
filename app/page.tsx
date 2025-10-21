@@ -30,8 +30,8 @@ export default function HomePage() {
         <div className="container mx-auto px-6 md:px-12 max-w-4xl relative">
           <Navigation />
         </div>
-        <div className="container px-2 sm:px-6 md:px-12 mx-auto py-12 sm:py-20 md:py-28 text-center rounded-b-3xl">
-          <h1 className={`${yeseva.className} font-bold tracking-wide text-white text-center drop-shadow-lg whitespace-normal leading-tight text-[clamp(1.5rem,8vw,4rem)]`}><br />Birth &<br />Postpartum<br />Doula Support<br />in the SF Bay Area</h1>
+        <div className="container px-2 sm:px-6 md:px-12 mx-auto py-12 sm:py-20 md:py-28 text-left rounded-b-3xl">
+          <h1 className={`${yeseva.className} font-bold tracking-wide text-white text-left drop-shadow-lg whitespace-normal leading-tight text-[clamp(1.5rem,8vw,4rem)]`}><br />Birth &<br />Postpartum<br />Doula Support<br />in the SF Bay Area</h1>
           <p className="mt-8 text-2xl text-white text-left font-light max-w-2xl leading-relaxed drop-shadow-md"><strong>Support for the early days of parenthood.</strong></p>
          <br />
           <Button asChild className="mt-12 bg-teal-800 hover:bg-teal-900 text-white rounded-lg shadow-lg text-xl font-semibold transition-all duration-200 h-14 px-10 flex items-center gap-2 focus:outline-none focus:ring-2 focus:ring-teal-400" size="lg">
