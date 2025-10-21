@@ -31,7 +31,7 @@ export default function HomePage() {
           <Navigation />
         </div>
         <div className="container px-6 md:px-12 max-w-4xl mx-auto py-12 sm:py-20 md:py-28 text-left rounded-b-3xl flex flex-col items-start">
-          <h1 className={`${merriweather.className} text-6xl font-bold tracking-wide text-white sm:text-6xl md:text-7xl drop-shadow-lg font-bold mt-12`}>
+          <h1 className={`${merriweather.className} text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-wide text-white drop-shadow-lg font-bold mt-12`}>
             <span className="block mb-4">Birth &</span>
             <span className="block mb-4">Postpartum</span>
             <span className="block mb-4">Doula Support</span>
