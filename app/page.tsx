@@ -225,7 +225,7 @@ export default function HomePage() {
                 As your doula, I provide physical, emotional, and informational support before, during and after birth. I don't perform clinical tasks and I am not a medical professional, but I work
                 alongside your medical team to help you have the most positive birth experience possible. I am
                 professionally trained to help with comfort measures, labor positioning, decision-making,
-                and to provide evidence-based guidance for newborn care. 
+                and to provide evidence-based guidance for newborn care. Please note that working with a doula is not a substitute for childbirth education classes or medical care. 
                 <br /> <br />
                 Studies show that doulas help improve maternal
                 health and birth outcomes, and increase parental satisfaction with the birth experience.
