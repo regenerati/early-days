@@ -258,8 +258,7 @@ export default function HomePage() {
               </AccordionTrigger>
               <AccordionContent className="text-gray-700 text-base">
                 Yes! I support people planning to give birth at the hospital, at a birth center, and at home. I
-                provide support for unmedicated births, epidurals, and cesarean births. I also speak
-                Spanish.
+                provide support for unmedicated births, epidurals, and cesarean births. Yo hablo español.
                 <br />  <br /> 
                 I can also provide full spectrum doula support, honoring and assisting individuals through all pregnancy outcomes, not just live birth but also abortion, miscarriage, stillbirth, surrogacy, and adoption.
               </AccordionContent>
@@ -277,7 +276,7 @@ export default function HomePage() {
                 Do you take insurance or workplace benefits like Carrot?
               </AccordionTrigger>
               <AccordionContent className="text-gray-700 text-base">
-                I only accept reimbursement through Kaiser (commercial plans only), at this moment. There is $0 out-of-pocket cost for qualifying Kaiser-insured clients.  I am working towards becoming an approved provider for other insurance carriers and for benefit programs like Carrot, Maven, and Progyny. In the meantime, I am willing to discuss a rate or payment plan
+                At this moment, I only accept insurance billing through Kaiser (commercial plans only). There is $0 out-of-pocket cost for qualifying Kaiser-insured clients.  I am working towards becoming an approved provider for other insurance carriers and for benefit programs like Carrot, Maven, and Progyny. In the meantime, I am willing to discuss a rate or payment plan
                 that works for you.
               </AccordionContent>
             </AccordionItem>
@@ -317,7 +316,7 @@ export default function HomePage() {
                 </div>
                 <div className="min-w-0 flex-1">
                   <h3 className="font-medium text-teal-800 text-lg">Service Area</h3>
-                  <p className="text-gray-700 text-lg leading-relaxed">San Francisco, and parts of the East Bay, Marin, and the Peninsula.</p>
+                  <p className="text-gray-700 text-lg leading-relaxed">San Francisco, and parts of the East Bay and the Peninsula.</p>
                 </div>
               </div>
               <div className="flex items-start gap-6">
@@ -326,7 +325,7 @@ export default function HomePage() {
                 </div>
                 <div className="min-w-0 flex-1">
                   <h3 className="font-medium text-teal-800 text-lg">Availability</h3>
-                  <p className="text-gray-700 text-lg leading-relaxed">Currently accepting clients with EDDs in November and beyond.</p>
+                  <p className="text-gray-700 text-lg leading-relaxed">Currently accepting clients with EDDs in February and beyond.</p>
                 </div>
               </div>
             </div>
