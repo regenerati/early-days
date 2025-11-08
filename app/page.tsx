@@ -68,7 +68,7 @@ export default function HomePage() {
             </div>
             <div className="md:w-2/3 flex flex-col justify-center text-lg leading-relaxed text-gray-700 space-y-6">
               <p className="text-gray-700">
-                Your birth journey deserves to be met with compassion, confidence, and respect. Whether you’re preparing for your first baby or expanding your family, having a <strong>trusted San Francisco doula</strong> that honors your choices can make all the difference.
+                <br /> Your birth journey deserves to be met with compassion, confidence, and respect. Whether you’re preparing for your first baby or expanding your family, having a <strong>trusted San Francisco doula</strong> that honors your choices can make all the difference.
               </p>
               <p className="text-gray-700">
                 At <strong>Early Days Doula</strong>, you’ll find a blend of evidence-based care and warm, nonjudgmental guidance designed to help you feel informed, empowered, and truly supported during this transformative time. Whether it’s navigating your birth preferences, offering a calm and steady presence, or providing hands-on help, I’m here for you.
