@@ -73,7 +73,10 @@ export default function Services() {
             </div>
             {/* Column 2: price, scheduling, bullet list */}
             <div className="flex flex-col justify-center mt-8 md:mt-16">
-              <p className="text-lg text-gray-700 leading-relaxed mb-4"><strong>Postpartum support is offered on a sliding scale of $50-$60 per hour, with a minimum of 25 total hours.</strong> Postpartum support is tailored to your needs and may include:</p>
+              <p className="text-lg text-gray-700 leading-relaxed mb-4"><strong>Postpartum support is offered on a sliding scale of $50–$60 per hour, with a minimum of 24 total hours scheduled during the first 3 weeks after birth.</strong> Longer-term support can be reserved with a commitment to a set number of hours per week for an agreed duration.</p>
+              <p className="text-lg text-gray-700 leading-relaxed mb-2">
+                Postpartum support is tailored to your needs and may include:
+              </p>
               <ul className="list-disc list-inside space-y-1 text-gray-600 pl-6 mb-4">
                 <li>Hands-on assistance with self-care recovery measures for healing after birth</li>
                 <li>Newborn care support (diapering, soothing, bathing) to give parents time to rest and recharge</li>
