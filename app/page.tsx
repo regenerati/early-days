@@ -264,7 +264,7 @@ export default function HomePage() {
               </AccordionTrigger>
               <AccordionContent className="text-gray-700 text-base">
                 Yes! I support people planning to give birth at the hospital, at a birth center, and at home. I
-                provide support for unmedicated births, epidurals, and cesarean births. Yo hablo español.
+                provide support for unmedicated births, medicated pain management, and cesarean births. Yo hablo español.
                 <br />  <br /> 
                 I can also provide full spectrum doula support, honoring and assisting individuals through all pregnancy outcomes, not just live birth but also abortion, miscarriage, stillbirth, surrogacy, and adoption.
               </AccordionContent>
@@ -291,7 +291,7 @@ export default function HomePage() {
                 Do you offer financial assistance or flexible payment options?
               </AccordionTrigger>
               <AccordionContent className="text-gray-700 text-base">
-                <p>My current rates are discounted while I work towards getting certified, including some free hours for a limited number of clients. I also reserve a limited number of sliding scale spots for families in need. Please reach out to discuss payment options, payment plans, or a reduced fee.</p>
+                <p>My current rates are discounted while I work towards getting certified. I also reserve a limited number of sliding scale spots for families in need. Please reach out to discuss payment options, payment plans, or a reduced fee.</p>
               </AccordionContent>
             </AccordionItem>
           </Accordion>
