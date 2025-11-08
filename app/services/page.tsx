@@ -86,7 +86,7 @@ export default function Services() {
                 <li>Emotional support and a listening ear</li>
                 <li>Referrals to trusted professionals and local resources as needed</li>
               </ul>
-              <p className="text-lg text-gray-700 leading-relaxed mb-2">I will create a package of visits tailored to your needs, with the option to extend if I'm available. I prioritize day shifts of 3hrs minimum but I can do occasional 8hr overnight shifts.<Link href="/#contact"><strong style={{color: 'teal'}}> Email me</strong></Link> to learn more.</p>
+              <p className="text-lg text-gray-700 leading-relaxed mb-2">I will create a personalized package of visits, with the option to extend if I'm available. I prioritize day shifts of 3hrs minimum but I can do occasional 8hr overnight shifts.<Link href="/#contact"><strong style={{color: 'teal'}}> Email me</strong></Link> to learn more.</p>
             </div>
           </div>
         </section>
