@@ -35,8 +35,7 @@ export default function HomePage() {
             <span className="block mb-4">Birth &</span>
             <span className="block mb-4">Postpartum</span>
             <span className="block mb-4">Doula Support</span>
-            <span className="block mb-4">in the SF Bay</span>
-            <span className="block">Area</span>
+            <span className="block mb-4">in San Francisco</span>
           </h1>
           <p className="mt-8 text-2xl text-white font-light max-w-2xl leading-relaxed drop-shadow-md text-left"><strong>Support for the early days of parenthood.</strong></p>
           <div className="w-full flex justify-start">
