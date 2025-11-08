@@ -68,16 +68,16 @@ export default function HomePage() {
             </div>
             <div className="md:w-2/3 flex flex-col justify-center text-lg leading-relaxed text-gray-700 space-y-6">
               <p className="text-gray-700">
-                I'm a birth and postpartum doula serving individuals and families in the San Francisco Bay Area. I believe everyone deserves to feel empowered throughout their birth journey. My approach blends evidence-based expertise and warm, non-judgmental care, so you feel informed and truly supported during this transformative time.
+                Your birth journey deserves to be met with compassion, confidence, and respect. Whether you’re preparing for your first baby or expanding your family, having a <strong>trusted San Francisco doula</strong> that honors your choices can make all the difference.
               </p>
               <p className="text-gray-700">
-                I came to doula work after 12+ years as a climate justice advocate, driven to do more hands-on, community-based work. Helping loved ones with their newborns brought me so much joy, and made it clear that supporting new families was where I wanted to be. My advocacy work still shows up in how I hold space: calm, intentional, and grounded in compassion and justice.
+                At <strong>Early Days Doula</strong>, you’ll find a blend of evidence-based care and warm, nonjudgmental guidance designed to help you feel informed, empowered, and truly supported during this transformative time. Whether it’s navigating your birth preferences, offering a calm and steady presence, or providing hands-on help, I’m here for you.
               </p>
               <p className="text-gray-700">
-                I support all birthing people and specialize in LGBTQ families. I'm here to help you navigate choices with confidence, hold space for your emotions, and offer physical support. Whether you need hands-on help, a steady presence, or someone to listen, I’m here for you. <strong>I would be honored to help make your early days of parenthood feel a little lighter.</strong>
+                I support all birthing people, and proudly specialize in inclusive, affirming support for <strong>LGBTQ families.</strong> I offer birth and postpartum doula services, as well as lactation education, <strong>tailored to your unique needs.</strong> My doula practice is rooted in community advocacy and a genuine joy in nurturing new families, bringing together empowerment and grounding for your individual path.
               </p>
               <p className="text-gray-700">
-                I live in San Francisco with my partner and two cuddly cats. In my free time, I play congas in a community Cuban ensemble, dance salsa with friends, and cheer on the Valkyries.
+                It would be my honor to help make your early days of parenthood feel a little lighter.
               </p>
             </div>
           </div>
