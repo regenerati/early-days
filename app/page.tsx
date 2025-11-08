@@ -210,6 +210,10 @@ export default function HomePage() {
                 <span className="text-sm sm:text-base">American Red Cross</span>
               </div>
               <div className="flex flex-col sm:flex-row sm:justify-between">
+                <span className="font-medium text-sm sm:text-base">Volunteer and Project Staff Alumni</span>
+                <span className="text-sm sm:text-base">Amigos de las Américas</span>
+              </div>
+              <div className="flex flex-col sm:flex-row sm:justify-between">
                 <span className="font-medium text-sm sm:text-base">BA International Studies</span>
                 <span className="text-sm sm:text-base">University of San Francisco</span>
               </div>
