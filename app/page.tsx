@@ -182,6 +182,12 @@ export default function HomePage() {
                 <span className="text-sm sm:text-base">ZSFG Labor & Delivery</span>
               </div>
               <div className="flex flex-col sm:flex-row sm:justify-between">
+              </div>
+              <div className="flex flex-col sm:flex-row sm:justify-between">
+                <span className="font-medium text-sm sm:text-base">Birth Doula Training</span>
+                <span className="text-sm sm:text-base">DONA International</span>
+              </div>
+              <div className="flex flex-col sm:flex-row sm:justify-between">
                 <span className="font-medium text-sm sm:text-base">Birth Doula Training</span>
                 <span className="text-sm sm:text-base">Natural Resources</span>
               </div>
