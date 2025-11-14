@@ -17,7 +17,7 @@ export default function Services() {
       <div className="block md:hidden"><Navigation /></div>
       {/* Small Header */}
       <header className="relative header-bg-sunrise py-16 overflow-hidden">
-        <div className="relative container mx-auto px-6 md:px-12 max-w-4xl text-justify">
+  <div className="relative container mx-auto px-6 md:px-12 max-w-5xl text-justify">
           <h1 className={`${merriweather.className} text-4xl sm:text-5xl font-bold tracking-wide text-white text-center drop-shadow-lg mt-16 font-bold`}>Services & Pricing</h1>
            <Button asChild className="mx-auto mt-8 bg-teal-800 hover:bg-teal-900 text-white rounded-lg shadow-lg text-xl font-semibold transition-all duration-200 h-14 px-10 flex items-center gap-2 focus:outline-none focus:ring-2 focus:ring-teal-400" size="lg">
             <Link href="/#contact" className="max-w-xs w-full flex items-center justify-start"><Calendar className="inline-block mr-2 h-6 w-6" /> Book a Free Consultation</Link>
@@ -27,7 +27,7 @@ export default function Services() {
       <main className="flex-grow">
         {/* Section 1 - White */}
   <section id="birth-doula" className="py-16 bg-white scroll-mt-0 md:scroll-mt-14">
-          <div className="container px-6 md:px-12 max-w-4xl mx-auto md:grid md:grid-cols-2 gap-8 flex flex-col">
+          <div className="container px-6 md:px-12 max-w-5xl mx-auto md:grid md:grid-cols-2 gap-8 flex flex-col">
             {/* Column 1: Heading, paragraph, image */}
             <div className="flex flex-col items-start mb-8 md:mb-0">
               <h2 className={`mb-8 text-left text-4xl font-bold text-teal-800 tracking-wide ${merriweather.className} font-bold`}>Birth Doula</h2>
@@ -59,7 +59,7 @@ export default function Services() {
         </section>
         {/* Section 2 - Light Teal */}
   <section id="postpartum-doula" className="py-16 scroll-mt-0 md:scroll-mt-14" style={{ backgroundColor: '#B7D9D3' }}>
-          <div className="container px-6 md:px-12 max-w-4xl mx-auto md:grid md:grid-cols-2 gap-8 flex flex-col">
+          <div className="container px-6 md:px-12 max-w-5xl mx-auto md:grid md:grid-cols-2 gap-8 flex flex-col">
             {/* Column 1: Heading, paragraph, image */}
             <div className="flex flex-col items-start mb-8 md:mb-0">
               <h2 className={`mb-8 text-left text-4xl font-bold text-teal-800 tracking-wide ${merriweather.className} font-bold`}>Postpartum Doula</h2>
@@ -92,7 +92,7 @@ export default function Services() {
         </section>
         {/* Section 3 - White */}
   <section id="full-spectrum-doula" className="py-16 bg-white scroll-mt-0 md:scroll-mt-14">
-          <div className="container px-6 md:px-12 max-w-4xl mx-auto md:grid md:grid-cols-2 gap-8 flex flex-col">
+          <div className="container px-6 md:px-12 max-w-5xl mx-auto md:grid md:grid-cols-2 gap-8 flex flex-col">
             {/* Column 1: Heading, paragraph, image */}
             <div className="flex flex-col items-start mb-8 md:mb-0">
               <h2 className={`mb-8 text-left text-4xl font-bold text-teal-800 tracking-wide ${merriweather.className} font-bold`}>Full Spectrum Doula</h2>
