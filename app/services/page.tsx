@@ -44,7 +44,7 @@ export default function Services() {
             <div className="flex flex-col justify-start mt-8 md:mt-16">
               <p className="text-lg text-gray-700 leading-relaxed mb-2"><strong>Birth support is offered on a sliding scale of $2,100-$2,700</strong>, which includes:</p>
               <ul className="list-disc list-inside space-y-1 text-gray-600 pl-6 mb-4">
-                <li>Three personalized, in-home prenatal visits where I supplement your childbirth education, clarify your birthing preferences, practice comfort techniques and labor positions, and teach your partner how to support you</li>
+                <li>Three personalized, in-home prenatal visits where I get to know you, clarify your birthing preferences, practice comfort techniques and labor positions, and teach your partner how to support you</li>
                 <li>24/7 on-call availability from 37-42 weeks gestation</li>
                 <li>Continuous labor support</li>
                 <li>A TENS unit to borrow for labor</li>
