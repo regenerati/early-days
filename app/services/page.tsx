@@ -42,7 +42,7 @@ export default function Services() {
             </div>
             {/* Column 2: price, bullet list, extra info */}
             <div className="flex flex-col justify-start mt-8 md:mt-16">
-              <p className="text-lg text-gray-700 leading-relaxed mb-2"><strong>Birth support is offered on a sliding scale of $2,000-$2,500</strong>, which includes:</p>
+              <p className="text-lg text-gray-700 leading-relaxed mb-2"><strong>Birth support is offered on a sliding scale of $2,100-$2,700</strong>, which includes:</p>
               <ul className="list-disc list-inside space-y-1 text-gray-600 pl-6 mb-4">
                 <li>Two personalized, in-home prenatal visits where I supplement your childbirth education, clarify your birthing preferences, practice comfort techniques and labor positions, and teach your partner how to support you</li>
                 <li>24/7 on-call availability from 37-42 weeks gestation</li>
@@ -73,7 +73,7 @@ export default function Services() {
             </div>
             {/* Column 2: price, scheduling, bullet list */}
             <div className="flex flex-col justify-center mt-8 md:mt-16">
-              <p className="text-lg text-gray-700 leading-relaxed mb-4"><strong>Postpartum support is offered on a sliding scale of $50–$60 per hour, with a minimum of 24 total hours scheduled during the first 3 weeks after birth.</strong> Longer-term support can be reserved with a commitment to a set number of hours per week for an agreed duration.</p>
+              <p className="text-lg text-gray-700 leading-relaxed mb-4"><strong>Postpartum support is offered on a sliding scale of $55–$65 per hour, with a minimum of 24 total hours scheduled during the first 3 weeks after birth.</strong> Longer-term support can be reserved with a commitment to a set number of hours per week for an agreed duration.</p>
               <p className="text-lg text-gray-700 leading-relaxed mb-2">
                 Postpartum support is tailored to your needs and may include:
               </p>
