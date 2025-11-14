@@ -48,7 +48,7 @@ export default function Services() {
                 <li>24/7 on-call availability from 37-42 weeks gestation</li>
                 <li>Continuous labor support</li>
                 <li>A TENS unit to borrow for labor</li>
-                <li>One in-home, post birth visit to check-in on how you are doing, including debriefing your birth, assistance with self-care recovery measures, and baby feeding support</li>
+                <li>One in-home, post birth visit to check-in on how you are doing, including debriefing your birth, assistance with self-care recovery measures, and guidance on newborn care</li>
                 <li>Ongoing email, text, and phone support</li>
                 <li>Access to evidence-based resources and referrals to healthcare providers</li>
                 <li>Reliable back-up from trusted doulas in my network</li>
