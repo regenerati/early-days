@@ -90,7 +90,7 @@ export default function HomePage() {
           <h2 className={`mb-6 text-center text-4xl font-bold text-teal-800 tracking-wide ${merriweather.className} font-bold`}>Services Offered</h2>
           <div className="grid gap-10 md:grid-cols-3 max-w-6xl mx-auto">
             {/* Service Card 1 */}
-            <Link href="/services#birth-doula" className="block focus:outline-none focus:ring-2 focus:ring-teal-400 rounded-xl" passHref legacyBehavior>
+            <Link href="/services#birth-doula" className="block focus:outline-none focus:ring-2 focus:ring-teal-400 rounded-xl">
               <Card className="border-none bg-white min-h-[340px] w-full max-w-xs mx-auto flex-1 shadow-lg rounded-xl transition-transform duration-200 hover:scale-105 hover:shadow-xl cursor-pointer">
                 <CardContent className="p-8 h-full flex flex-col">
                 <div className="mb-8 flex h-14 w-14 items-center justify-center rounded-full bg-teal-100 mx-auto flex-shrink-0">
@@ -105,7 +105,7 @@ export default function HomePage() {
             </Card>
             </Link>
             {/* Service Card 2 */}
-            <Link href="/services#postpartum-doula" className="block focus:outline-none focus:ring-2 focus:ring-teal-400 rounded-xl" passHref legacyBehavior>
+            <Link href="/services#postpartum-doula" className="block focus:outline-none focus:ring-2 focus:ring-teal-400 rounded-xl">
               <Card className="border-none bg-white min-h-[340px] w-full max-w-xs mx-auto flex-1 shadow-lg rounded-xl transition-transform duration-200 hover:scale-105 hover:shadow-xl cursor-pointer">
                 <CardContent className="p-8 h-full flex flex-col">
                 <div className="mb-8 flex h-14 w-14 items-center justify-center rounded-full bg-teal-100 mx-auto flex-shrink-0">
@@ -121,7 +121,7 @@ export default function HomePage() {
             </Card>
             </Link>
             {/* Service Card 3: Full Spectrum Doula */}
-            <Link href="/services#full-spectrum-doula" className="block focus:outline-none focus:ring-2 focus:ring-teal-400 rounded-xl" passHref legacyBehavior>
+            <Link href="/services#full-spectrum-doula" className="block focus:outline-none focus:ring-2 focus:ring-teal-400 rounded-xl">
               <Card className="border-none bg-white min-h-[340px] w-full max-w-xs mx-auto flex-1 shadow-lg rounded-xl transition-transform duration-200 hover:scale-105 hover:shadow-xl cursor-pointer">
                 <CardContent className="p-8 h-full flex flex-col">
                 <div className="mb-8 flex h-14 w-14 items-center justify-center rounded-full bg-teal-100 mx-auto flex-shrink-0">
