@@ -32,7 +32,6 @@ export default function HomePage() {
         </div>
         <div className="container px-6 md:px-12 max-w-4xl mx-auto py-12 sm:py-20 md:py-28 text-left rounded-b-3xl flex flex-col items-start">
           <h1 className={`${merriweather.className} text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-wide text-white drop-shadow-lg font-bold mt-12`}>
-            <span className="block mb-4">Birth &</span>
             <span className="block mb-4">Postpartum</span>
             <span className="block mb-4">Doula Support</span>
             <span className="block mb-4">in San Francisco</span>
@@ -68,13 +67,13 @@ export default function HomePage() {
             </div>
             <div className="md:w-2/3 flex flex-col justify-center text-lg leading-relaxed text-gray-700 space-y-6">
               <p className="text-gray-700">
-                <br /> Your birth journey deserves to be met with compassion, confidence, and respect. Whether you’re preparing for your first baby or expanding your family, having a <strong>trusted San Francisco doula</strong> that honors your choices can make all the difference.
+                <br /> Your journey as a new parent deserves to be met with compassion, confidence, and respect. Whether you’re preparing for your first baby or expanding your family, having a <strong>trusted San Francisco doula</strong> that honors your choices can make all the difference.
               </p>
               <p className="text-gray-700">
-                At <strong>Early Days Doula</strong>, you’ll find a blend of evidence-based care and warm, nonjudgmental guidance designed to help you feel informed, empowered, and truly supported during this transformative time. Whether it’s navigating your birth preferences, offering a calm and steady presence, or providing hands-on help, I’m here for you.
+                At <strong>Early Days Doula</strong>, you’ll find a blend of evidence-based care and warm, nonjudgmental guidance designed to help you feel informed, empowered, and truly supported during this transformative time. Whether it’s navigating newborn care, offering a calm and steady presence, or providing hands-on help, I’m here for you.
               </p>
               <p className="text-gray-700">
-                I support all birthing people, and proudly specialize in inclusive, affirming support for <strong>LGBTQ families.</strong> I offer birth and postpartum doula services, as well as lactation education, <strong>tailored to your unique needs.</strong> My doula practice is rooted in community advocacy and a genuine joy in nurturing new families, bringing together empowerment and grounding for your individual path.
+                I support all families, and proudly specialize in inclusive, affirming support for <strong>LGBTQ families.</strong> I offer postpartum doula services, as well as lactation education, <strong>tailored to your unique needs.</strong> My doula practice is rooted in community advocacy and a genuine joy in nurturing new families, bringing together empowerment and grounding for your individual path.
               </p>
               <p className="text-gray-700">
                 It would be my honor to help make your early days of parenthood feel a little lighter.
@@ -86,81 +85,40 @@ export default function HomePage() {
 
       {/* Services Section - Modern Card Layout */}
       <section id="services" className="py-20 scroll-mt-16" style={{ backgroundColor: '#B7D9D3' }}>
-        <div className="container px-6 md:px-12">
-          <h2 className={`mb-6 text-center text-4xl font-bold text-teal-800 tracking-wide ${merriweather.className} font-bold`}>Services Offered</h2>
-          <div className="grid gap-10 md:grid-cols-3 max-w-6xl mx-auto">
+        <div className="container px-6 md:px-12 max-w-7xl mx-auto">
+          <h2 className={`mb-16 text-center text-4xl font-bold text-teal-800 tracking-wide ${merriweather.className} font-bold`}>Services Offered</h2>
+          <div className="flex flex-col lg:flex-row gap-12 items-center justify-center mb-12">
             {/* Service Card 1 */}
-            <Link href="/services#birth-doula" className="block focus:outline-none focus:ring-2 focus:ring-teal-400 rounded-xl">
-              <Card className="border-none bg-white min-h-[340px] w-full max-w-xs mx-auto flex-1 shadow-lg rounded-xl transition-transform duration-200 hover:scale-105 hover:shadow-xl cursor-pointer">
-                <CardContent className="p-8 h-full flex flex-col">
-                <div className="mb-8 flex h-14 w-14 items-center justify-center rounded-full bg-teal-100 mx-auto flex-shrink-0">
-                  <Baby className="h-7 w-7 text-teal-700" />
-                </div>
-                <h3 className="mb-6 text-2xl font-semibold text-teal-800 text-center">Birth Doula</h3>
-                <p className="text-gray-700 text-center flex-grow text-lg">
-                  Support from pregnancy through birth, including personalized prenatal visits, on-call from 37 weeks, and continuous labor support.
-                  <br /> <br /> <strong style={{color: 'teal'}}>Click</strong> for details and pricing.
-                </p>
-              </CardContent>
-            </Card>
-            </Link>
-            {/* Service Card 2 */}
-            <Link href="/services#postpartum-doula" className="block focus:outline-none focus:ring-2 focus:ring-teal-400 rounded-xl">
-              <Card className="border-none bg-white min-h-[340px] w-full max-w-xs mx-auto flex-1 shadow-lg rounded-xl transition-transform duration-200 hover:scale-105 hover:shadow-xl cursor-pointer">
-                <CardContent className="p-8 h-full flex flex-col">
-                <div className="mb-8 flex h-14 w-14 items-center justify-center rounded-full bg-teal-100 mx-auto flex-shrink-0">
-                  <Home className="h-7 w-7 text-teal-700" />
-                </div>
-                <h3 className="mb-6 text-2xl font-semibold text-teal-800 text-center">Postpartum Doula</h3>
-                <p className="text-gray-700 text-center flex-grow text-lg">
-                  In-home assistance after birth, including newborn guidance, lactation support, and aid with physical recovery.
-                  <br /> <br />
-                  <strong style={{color: 'teal'}}>Click</strong> for details and pricing.
-                </p>
-              </CardContent>
-            </Card>
-            </Link>
-            {/* Service Card 3: Full Spectrum Doula */}
-            <Link href="/services#full-spectrum-doula" className="block focus:outline-none focus:ring-2 focus:ring-teal-400 rounded-xl">
-              <Card className="border-none bg-white min-h-[340px] w-full max-w-xs mx-auto flex-1 shadow-lg rounded-xl transition-transform duration-200 hover:scale-105 hover:shadow-xl cursor-pointer">
-                <CardContent className="p-8 h-full flex flex-col">
-                <div className="mb-8 flex h-14 w-14 items-center justify-center rounded-full bg-teal-100 mx-auto flex-shrink-0">
-                  <Heart className="h-7 w-7 text-teal-700" />
-                </div>
-                <h3 className="mb-6 text-2xl font-semibold text-teal-800 text-center">Full Spectrum Doula</h3>
-                <p className="text-gray-700 text-center flex-grow text-lg">
-                  Customizable support for all pregnancy outcomes, including abortion, miscarriage, stillbirth, surrogacy, and adoption.
-                  <br /> <br />
-                  <strong style={{color: 'teal'}}>Click</strong> for details and pricing.
-                </p>
-              </CardContent>
-            </Card>
-            </Link>
-          </div>
-          <Button asChild className="mx-auto mt-12 bg-teal-800 hover:bg-teal-900 text-white rounded-lg shadow-lg text-xl font-semibold transition-all duration-200 h-14 px-10 flex items-center gap-2 focus:outline-none focus:ring-2 focus:ring-teal-400" size="lg">
-            <a href="#contact" className="max-w-xs w-full flex items-center justify-start"><Calendar className="inline-block mr-2 h-5 w-5" /> Book a Free Consultation</a>
-          </Button>
-        </div>
-      </section>
-
-      {/* LGBTQ+ and Gender-Affirming Support Section - White, two-column modern */}
-      <section id="lgbtq-support" className="bg-white py-20 scroll-mt-16">
-        <div className="container px-6 md:px-12">
-          <h2 className={`mb-10 text-center text-4xl font-bold text-teal-800 tracking-wide ${merriweather.className} font-bold`}>LGBTQ+ and Gender-Affirming Support</h2>
-          <div className="flex flex-col md:flex-row md:items-center gap-12 max-w-5xl mx-auto">
-            <div className="md:w-1/2 w-full text-lg leading-relaxed text-gray-700">
-              <p className="text-gray-700">
-                I understand the barriers to inclusive care in healthcare settings. I offer affirming, respectful support for queer, trans, non-binary, and gender-diverse families of all identities, constellations, and lived experiences. My work is grounded in a commitment to queer and gender justice, and I believe that protecting LGBTQ reproductive autonomy is both a direct action and a pathway to cultivating queer joy. If you're seeking a safe space, guidance on LGBTQ-friendly perinatal providers, or resources for gender-affirming birth and postpartum care, I'm here to support you. Every family deserves to feel seen, heard, and celebrated in their reproductive journey.
-              </p>
+            <div className="w-full lg:w-auto flex justify-center">
+              <Link href="/services#postpartum-doula" className="block focus:outline-none focus:ring-2 focus:ring-teal-400 rounded-xl w-full max-w-sm">
+                <Card className="border-none bg-white h-full shadow-lg rounded-xl transition-transform duration-300 hover:scale-105 hover:shadow-2xl cursor-pointer">
+                  <CardContent className="p-10 h-full flex flex-col justify-between">
+                    <div>
+                      <div className="mb-8 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-teal-100 to-teal-50 mx-auto flex-shrink-0 shadow-md">
+                        <Home className="h-8 w-8 text-teal-700" />
+                      </div>
+                      <h3 className="mb-6 text-2xl font-semibold text-teal-800 text-center">Postpartum Doula</h3>
+                      <p className="text-gray-700 text-center text-base leading-relaxed">
+                        In-home assistance after birth, including newborn guidance, lactation support, and aid with physical recovery.
+                      </p>
+                    </div>
+                    <div className="mt-6 pt-6 border-t border-teal-100 text-center">
+                      <p className="text-teal-700 font-semibold">Click for details and pricing</p>
+                    </div>
+                  </CardContent>
+                </Card>
+              </Link>
             </div>
-            <div className="md:w-1/2 w-full flex justify-center">
-              <div className="overflow-hidden rounded-xl w-full max-w-xs h-[400px] flex items-center justify-center protect-container shadow-lg">
+            
+            {/* Image */}
+            <div className="w-full lg:w-auto flex justify-center">
+              <div className="overflow-hidden rounded-xl w-full max-w-sm h-96 flex items-center justify-center protect-container shadow-lg">
                 <div onContextMenu={e => e.preventDefault()} className="w-full h-full">
                   <Image
                     src="/images/doula-with-baby.jpg"
                     alt="Chelsea providing gentle newborn care"
-                    width={300}
-                    height={400}
+                    width={400}
+                    height={384}
                     className="h-full w-full object-cover protect-image select-none pointer-events-none"
                     draggable={false}
                   />
@@ -168,6 +126,64 @@ export default function HomePage() {
               </div>
             </div>
           </div>
+          
+          <div className="flex justify-center">
+            <Button asChild className="bg-teal-800 hover:bg-teal-900 text-white rounded-lg shadow-lg text-lg font-semibold transition-all duration-300 h-14 px-8 flex items-center gap-3 focus:outline-none focus:ring-2 focus:ring-teal-400 hover:shadow-xl" size="lg">
+              <a href="#contact" className="flex items-center justify-center gap-2"><Calendar className="h-5 w-5" /> Book a Free Consultation</a>
+            </Button>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section - White modern */}
+      <section id="faq" className="bg-white py-20">
+        <div className="container px-6 md:px-12">
+          <h2 className={`mb-12 text-center text-4xl font-bold text-teal-800 tracking-wide ${merriweather.className} font-bold`}>Frequently Asked Questions</h2>
+          <Accordion type="single" collapsible className="mx-auto max-w-3xl">
+            <AccordionItem value="item-1">
+              <AccordionTrigger className="text-left text-lg font-medium text-teal-700">
+                What exactly does a doula do?
+              </AccordionTrigger>
+              <AccordionContent className="text-gray-700 text-base">
+                As your postpartum doula, I provide physical, emotional, and informational support after birth. I don't perform clinical tasks and I am not a medical professional, but I support you in many ways to transition into life with a baby and recover from birth. I am
+                professionally trained to help with self-care recovery measures and evidence-based newborn care. Please note that working with a doula is not a substitute for medical care. 
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-3">
+              <AccordionTrigger className="text-left text-lg font-medium text-teal-700">
+                When should I hire a doula?
+              </AccordionTrigger>
+              <AccordionContent className="text-gray-700 text-base">
+                Many families hire a doula in the second trimester, around 20-24 weeks, but I can be hired at any point
+                in your pregnancy (or after birth, if I have availability).
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-5">
+              <AccordionTrigger className="text-left text-lg font-medium text-teal-700">
+                Are you up-to-date on vaccinations?
+              </AccordionTrigger>
+              <AccordionContent className="text-gray-700 text-base">
+                Yes, I am fully vaccinated with all recommended vaccines, including COVID-19 (with boosters), Tdap, and influenza. I also have a current negative TB test on file. I take the health and safety of my clients very seriously and I am happy to wear a mask upon request.
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-6">
+              <AccordionTrigger className="text-left text-lg font-medium text-teal-700">
+                Do you take insurance or workplace benefits like Carrot?
+              </AccordionTrigger>
+              <AccordionContent className="text-gray-700 text-base">
+                At this moment I don't accept insurance. I am working towards becoming an approved provider for insurance carriers and for benefit programs like Carrot, Maven, and Progyny. In the meantime, I am willing to discuss a rate or payment plan
+                that works for you.
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-7">
+              <AccordionTrigger className="text-left text-lg font-medium text-teal-700">
+                Do you offer financial assistance or flexible payment options?
+              </AccordionTrigger>
+              <AccordionContent className="text-gray-700 text-base">
+                <p>My current rates are discounted while I work towards getting certified. I also reserve a limited number of sliding scale spots for families in need. Please reach out to discuss payment options, payment plans, or a reduced fee.</p>
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
         </div>
       </section>
 
@@ -226,86 +242,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* FAQ Section - White modern */}
-      <section id="faq" className="bg-white py-20">
-        <div className="container px-6 md:px-12">
-          <h2 className={`mb-12 text-center text-4xl font-bold text-teal-800 tracking-wide ${merriweather.className} font-bold`}>Frequently Asked Questions</h2>
-          <Accordion type="single" collapsible className="mx-auto max-w-3xl">
-            <AccordionItem value="item-1">
-              <AccordionTrigger className="text-left text-lg font-medium text-teal-700">
-                What exactly does a doula do?
-              </AccordionTrigger>
-              <AccordionContent className="text-gray-700 text-base">
-                As your doula, I provide physical, emotional, and informational support before, during and after birth. I don't perform clinical tasks and I am not a medical professional, but I work
-                alongside your medical team to help you have the most positive birth experience possible. I am
-                professionally trained to help with comfort measures, labor positioning, decision-making,
-                and to provide evidence-based guidance for newborn care. Please note that working with a doula is not a substitute for childbirth education classes or medical care. 
-                <br /> <br />
-                Studies show that doulas help improve maternal
-                health and birth outcomes, and increase parental satisfaction with the birth experience.
-              </AccordionContent>
-            </AccordionItem>
-            <AccordionItem value="item-2">
-              <AccordionTrigger className="text-left text-lg font-medium text-teal-700">
-                How is a doula different from a midwife?
-              </AccordionTrigger>
-              <AccordionContent className="text-gray-700 text-base">
-                Midwives are medical professionals responsible for the clinical aspects of your pregnancy and birth. As
-                a doula, I focus exclusively on the birthing person's comfort and emotional well-being. I don't perform
-                medical procedures or make decisions about your care. But I can help you understand your options and
-                guide you to make informed decisions in alignment with your personal preferences.
-              </AccordionContent>
-            </AccordionItem>
-            <AccordionItem value="item-3">
-              <AccordionTrigger className="text-left text-lg font-medium text-teal-700">
-                When should I hire a doula?
-              </AccordionTrigger>
-              <AccordionContent className="text-gray-700 text-base">
-                Many families hire a doula in the second trimester, around 20-24 weeks, but I can be hired at any point
-                in your pregnancy. Booking earlier gives us more time to build a relationship and prepare for your
-                birth, but I also accept last-minute clients when availability allows.
-              </AccordionContent>
-            </AccordionItem>
-            <AccordionItem value="item-4">
-              <AccordionTrigger className="text-left text-lg font-medium text-teal-700">
-                Do you support all types of births?
-              </AccordionTrigger>
-              <AccordionContent className="text-gray-700 text-base">
-                Yes! I support people planning to give birth at the hospital, at a birth center, and at home. I
-                provide support for unmedicated births, medicated pain management, and cesarean births. Yo hablo español.
-                <br />  <br /> 
-                I can also provide full spectrum doula support, honoring and assisting individuals through all pregnancy outcomes, not just live birth but also abortion, miscarriage, stillbirth, surrogacy, and adoption.
-              </AccordionContent>
-            </AccordionItem>
-            <AccordionItem value="item-5">
-              <AccordionTrigger className="text-left text-lg font-medium text-teal-700">
-                Are you up-to-date on vaccinations?
-              </AccordionTrigger>
-              <AccordionContent className="text-gray-700 text-base">
-                Yes, I am fully vaccinated with all recommended vaccines, including COVID-19 (with boosters), Tdap, and influenza. I also have a current negative TB test on file. I take the health and safety of my clients very seriously and I am happy to wear a mask upon request.
-              </AccordionContent>
-            </AccordionItem>
-            <AccordionItem value="item-6">
-              <AccordionTrigger className="text-left text-lg font-medium text-teal-700">
-                Do you take insurance or workplace benefits like Carrot?
-              </AccordionTrigger>
-              <AccordionContent className="text-gray-700 text-base">
-                At this moment, I only accept insurance billing through Kaiser (commercial plans only). There is $0 out-of-pocket cost for qualifying Kaiser-insured clients.  I am working towards becoming an approved provider for other insurance carriers and for benefit programs like Carrot, Maven, and Progyny. In the meantime, I am willing to discuss a rate or payment plan
-                that works for you.
-              </AccordionContent>
-            </AccordionItem>
-            <AccordionItem value="item-7">
-              <AccordionTrigger className="text-left text-lg font-medium text-teal-700">
-                Do you offer financial assistance or flexible payment options?
-              </AccordionTrigger>
-              <AccordionContent className="text-gray-700 text-base">
-                <p>My current rates are discounted while I work towards getting certified. I also reserve a limited number of sliding scale spots for families in need. Please reach out to discuss payment options, payment plans, or a reduced fee.</p>
-              </AccordionContent>
-            </AccordionItem>
-          </Accordion>
-        </div>
-      </section>
-
       {/* Contact Section - Teal-800 modern */}
       <section id="contact" className="py-20 scroll-mt-16 bg-teal-800">
         <div className="container px-6 md:px-12">
@@ -330,7 +266,7 @@ export default function HomePage() {
                 </div>
                 <div className="min-w-0 flex-1">
                   <h3 className="font-medium text-teal-800 text-lg">Service Area</h3>
-                  <p className="text-gray-700 text-lg leading-relaxed">San Francisco, and parts of the East Bay and the Peninsula.</p>
+                  <p className="text-gray-700 text-lg leading-relaxed">San Francisco</p>
                 </div>
               </div>
               <div className="flex items-start gap-6">
@@ -339,7 +275,7 @@ export default function HomePage() {
                 </div>
                 <div className="min-w-0 flex-1">
                   <h3 className="font-medium text-teal-800 text-lg">Availability</h3>
-                  <p className="text-gray-700 text-lg leading-relaxed">Currently accepting clients with EDDs in February and beyond.</p>
+                  <p className="text-gray-700 text-lg leading-relaxed">Currently accepting clients</p>
                 </div>
               </div>
             </div>

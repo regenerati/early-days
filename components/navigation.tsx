@@ -88,14 +88,11 @@ export function Navigation() {
                 Details & Pricing
               </Link>
             </div>
-            <Link href="/#lgbtq-support" className="block px-4 py-2 text-sm hover:bg-teal-50 transition-colors text-gray-700" onClick={e => { setIsMenuOpen(false); setTimeout(() => { window.location.hash = '#lgbtq-support'; }, 50); }}>
-              LGBTQ+ Support
+            <Link href="/#faq" className="block px-4 py-2 text-sm hover:bg-teal-50 transition-colors text-gray-700" onClick={e => { setIsMenuOpen(false); setTimeout(() => { window.location.hash = '#faq'; }, 50); }}>
+              FAQ
             </Link>
             <Link href="/#education" className="block px-4 py-2 text-sm hover:bg-teal-50 transition-colors text-gray-700" onClick={e => { setIsMenuOpen(false); setTimeout(() => { window.location.hash = '#education'; }, 50); }}>
               Education
-            </Link>
-            <Link href="/#faq" className="block px-4 py-2 text-sm hover:bg-teal-50 transition-colors text-gray-700" onClick={e => { setIsMenuOpen(false); setTimeout(() => { window.location.hash = '#faq'; }, 50); }}>
-              FAQ
             </Link>
             <Link href="/#contact" className="block px-4 py-2 text-sm hover:bg-teal-50 transition-colors text-gray-700" onClick={e => { setIsMenuOpen(false); setTimeout(() => { window.location.hash = '#contact'; }, 50); }}>
               Contact

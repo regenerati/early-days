@@ -5,9 +5,8 @@ import { usePathname } from "next/navigation"
 
 const sections = [
 	{ href: "/#about", label: "About" },
-	{ href: "/#lgbtq-support", label: "LGBTQ+ Support" },
-	{ href: "/#education", label: "Education" },
 	{ href: "/#faq", label: "FAQ" },
+	{ href: "/#education", label: "Education" },
 	{ href: "/#contact", label: "Contact" },
 ]
 
@@ -60,14 +59,14 @@ export function DesktopNav() {
 					   </div>
 				   </div>
 				<Link
-					href="/#lgbtq-support"
+					href="/#faq"
 					className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-150 hover:bg-teal-50 hover:text-teal-900 ${
-						pathname === "/#lgbtq-support"
+						pathname === "/#faq"
 							? "bg-teal-100 text-teal-900"
 							: "text-teal-800"
 					}`}
 				>
-					LGBTQ+ Support
+					FAQ
 				</Link>
 				   <Link
 					   href="/#education"
@@ -78,16 +77,6 @@ export function DesktopNav() {
 					   }`}
 				   >
 					   Education
-				   </Link>
-				   <Link
-					   href="/#faq"
-					   className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-150 hover:bg-teal-50 hover:text-teal-900 ${
-						   pathname === "/#faq"
-							   ? "bg-teal-100 text-teal-900"
-							   : "text-teal-800"
-					   }`}
-				   >
-					   FAQ
 				   </Link>
 				<Link
 					href="/#contact"
